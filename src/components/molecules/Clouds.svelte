@@ -7,7 +7,7 @@
   .cloud {
     width: 200px;
     height: 60px;
-    background: #fff;
+    background: lightgray;
     border-radius: 200px;
     -moz-border-radius: 200px;
     -webkit-border-radius: 200px;
@@ -18,7 +18,7 @@
   .cloud:after {
     content: "";
     position: absolute;
-    background: #fff;
+    background: lightgray;
     width: 100px;
     height: 80px;
     position: absolute;
@@ -45,6 +45,7 @@
   /*Time to animate*/
   .x1 {
     left: 725px;
+    bottom: -25px;
 
     -webkit-animation: moveclouds 15s linear infinite;
     -moz-animation: moveclouds 15s linear infinite;

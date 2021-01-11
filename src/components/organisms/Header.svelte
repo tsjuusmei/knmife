@@ -1,25 +1,25 @@
 <style>
-
 	* {
 		margin: 0;
 		padding: 0;
 	}
 
 	h1 {
-		font-family: "Roboto";
-		text-transform: uppercase;
+		font-family: "Sora";
 		font-size: 100px;
-		font-weight: 500;
+		font-weight: 700;
 		margin: auto;
 		z-index: 1000;
+		color: #00255a;
 	}
 
 	header {
 		max-width: none;
-		background-image: url("../images/bg.gray.svg");
+		background-image: url("../images/bg.white.svg");
 		background-size: cover;
+		background-color: lightgray;
 		text-align: center;
-		height: 90%;
+		height: 100vh;
 		display: flex;
 		flex-direction: column;
 		margin-bottom: -1%;
@@ -32,6 +32,11 @@
 		margin: 0 auto;
 		animation: pulse 2s 3s ease-out infinite;
 		z-index: 1000;
+	}
+
+	span {
+		font-size: 0.4em;
+		font-weight: 700;
 	}
 
 	@keyframes pulse {
@@ -51,8 +56,8 @@
 </style>
 
 <header>
-	<h1>De invloed van COVID-19 <br /> op de NO₂ uitstoot</h1>
+	<h1>De invloed van <br /> COVID-19 op de <br />NO<span>2</span> uitstoot</h1>
 	<a href="#intro">
-		<img src="../images/arrowdown.svg" class="bounce" alt="" />
+		<img src="../images/arrowdown.blue.svg" class="bounce" alt="" />
 	</a>
 </header>

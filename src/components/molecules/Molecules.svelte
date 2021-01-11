@@ -16,7 +16,7 @@
 
   .m3 {
     width: 150px;
-    left: 40%;
+    left: 55%;
     margin-top: 22%;
     opacity: .3;
     z-index: -1000;
