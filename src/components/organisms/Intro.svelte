@@ -30,17 +30,17 @@
   <Clouds />
   <Molecules />
 
-  <h2>Wat is NO²?</h2>
+  <h2>Wat is NO₂?</h2>
 
   <p>
-    De uitstoot van NO² is de afgelopen jaren veel te hoog. Door COVID-19 zijn
+    De uitstoot van NO₂ is de afgelopen jaren veel te hoog. Door COVID-19 zijn
     er verschillende maatregelen van pas gekomen, waardoor het vervoer en
     producties verminderden. De invloed van deze maatregelen staan in dit
     artikel verwerkt.
   </p>
 
   <p class="right">
-    Stikstofdioxide (NO²) is een gas dat in Nederland voor een groot gedeelte
+    Stikstofdioxide (NO₂) is een gas dat in Nederland voor een groot gedeelte
     door het autoverkeer wordt geproduceerd. Het is daarom een belangrijke
     indicator voor de luchtverontreiniging door verkeer. Langs grote wegen komen
     hoge concentraties voor die over een afstand van enkele kilometers afnemen

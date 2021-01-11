@@ -51,7 +51,7 @@
 </style>
 
 <header>
-	<h1>How did COVID-19 <br /> affect the NO² emissions?</h1>
+	<h1>De invloed van COVID-19 <br /> op de NO₂ uitstoot</h1>
 	<a href="#intro">
 		<img src="../images/arrowdown.svg" class="bounce" alt="" />
 	</a>
