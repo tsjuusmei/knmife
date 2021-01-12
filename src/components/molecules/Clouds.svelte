@@ -7,7 +7,7 @@
   .cloud {
     width: 200px;
     height: 60px;
-    background: lightgray;
+    background: var(--grey);
     border-radius: 200px;
     -moz-border-radius: 200px;
     -webkit-border-radius: 200px;
@@ -18,7 +18,7 @@
   .cloud:after {
     content: "";
     position: absolute;
-    background: lightgray;
+    background: var(--grey);
     width: 100px;
     height: 80px;
     position: absolute;

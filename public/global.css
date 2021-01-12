@@ -1,3 +1,9 @@
+:root {
+	--lightblue: #0371C1;
+	--darkblue: #00255a;
+	--grey: lightgrey;
+  }
+
 html, body {
 	position: relative;
 	width: 100%;

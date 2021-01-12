@@ -17,7 +17,7 @@
   h3 {
     font-family: "Sora";
     text-align: center;
-    color: #00255a;
+    color: var(--darkblue);
   }
 
   p {

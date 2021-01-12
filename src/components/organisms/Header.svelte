@@ -10,14 +10,14 @@
 		font-weight: 700;
 		margin: auto;
 		z-index: 1000;
-		color: #00255a;
+		color: var(--darkblue);
 	}
 
 	header {
 		max-width: none;
 		background-image: url("../images/bg.white.svg");
 		background-size: cover;
-		background-color: lightgray;
+		background-color: var(--grey);
 		text-align: center;
 		height: 100vh;
 		display: flex;

@@ -15,7 +15,7 @@
     font-size: 72px;
     text-align: center;
     margin-right: 5%;
-    color: #00255a;
+    color: var(--darkblue);
   }
 
   p {

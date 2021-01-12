@@ -19,7 +19,7 @@
 
   h3 {
     font-family: "Sora";
-    color: #00255a;
+    color: var(--darkblue);
     font-size: 30px;
     padding-top: 5%;
     text-align: center;
