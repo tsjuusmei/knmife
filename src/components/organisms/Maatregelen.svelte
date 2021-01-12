@@ -34,8 +34,9 @@
   ul {
     list-style-type: none;
     display: flex;
-    margin: 150px;
+    margin: 110px;
     justify-content: space-between;
+    padding: 0;
   }
 </style>
 
