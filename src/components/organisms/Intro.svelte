@@ -12,10 +12,10 @@
 
   h2 {
     font-family: "Sora";
-    color: #00255a;
     font-size: 72px;
     text-align: center;
     margin-right: 5%;
+    color: #00255a;
   }
 
   p {

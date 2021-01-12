@@ -1,4 +1,8 @@
 <script>
+  import StayHome from '../molecules/StayHome.svelte'
+  import Teleworking from '../molecules/Teleworking.svelte'
+  import MassGather from '../molecules/MassGather.svelte'
+  import Closepub from '../molecules/Closepub.svelte'
 </script>
 
 <style>
@@ -26,6 +30,13 @@
     line-height: 2em;
     margin: auto;
   }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 150px;
+    justify-content: space-between;
+  }
 </style>
 
 <div id="maatregelen">
@@ -37,4 +48,11 @@
     actieve maatregelen per land weergeeft in een schema en de google earth
     engine gemaakt.
   </p>
+
+  <ul>
+    <li><StayHome /></li>
+    <li><Teleworking /></li>
+    <li><MassGather /></li>
+    <li><Closepub /></li>
+  </ul>
 </div>
