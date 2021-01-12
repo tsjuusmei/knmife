@@ -10,10 +10,10 @@
     width: 35%;
   }
 
-  #maatregelen {
+  section {
     height: 100vh;
-    background-image: url("../images/rounded.bg.gray.svg");
-    background-size: cover;
+    background: url("../images/rounded.bg.gray.svg") no-repeat;
+    background-size: 100%;
     padding: 0 150px;
   }
 
@@ -40,20 +40,22 @@
   }
 </style>
 
-<div id="maatregelen">
-  <h3>Welke maatregelen hebben wij gekozen en waarom</h3>
+<section>
+  <div class="container">
+    <h3>Welke maatregelen hebben wij gekozen en waarom</h3>
 
-  <p>
-    We hebben de onderstaande maatregelen gekozen om te gebruiken voor ons
-    onderzoek. Deze keuzes hebben wij aan de hand van een bestand dat alle
-    actieve maatregelen per land weergeeft in een schema en de google earth
-    engine gemaakt.
-  </p>
+    <p>
+      We hebben de onderstaande maatregelen gekozen om te gebruiken voor ons
+      onderzoek. Deze keuzes hebben wij aan de hand van een bestand dat alle
+      actieve maatregelen per land weergeeft in een schema en de google earth
+      engine gemaakt.
+    </p>
 
-  <ul>
-    <li><StayHome /></li>
-    <li><Teleworking /></li>
-    <li><MassGather /></li>
-    <li><Closepub /></li>
-  </ul>
-</div>
+    <ul>
+      <li><StayHome /></li>
+      <li><Teleworking /></li>
+      <li><MassGather /></li>
+      <li><Closepub /></li>
+    </ul>
+  </div>
+</section>
