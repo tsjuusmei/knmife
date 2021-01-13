@@ -1,7 +1,8 @@
 <script>
   import MadridCard from '../molecules/MadridCard.svelte';
-  import MilanCard from '../molecules/MilanCard.svelte'
-  import LyonCard from '../molecules/LyonCard.svelte'
+  import MilanCard from '../molecules/MilanCard.svelte';
+  import LyonCard from '../molecules/LyonCard.svelte';
+  import LiverpoolCard from '../molecules/LiverpoolCard.svelte';
 </script>
 
 <style>
@@ -26,9 +27,20 @@
   ul {
     list-style-type: none;
     display: flex;
-    margin: 110px;
+    margin: 110px 0;
     justify-content: space-between;
     padding: 0;
+  }
+
+  .margintop {
+    margin-top: 4em;
+  }
+
+  div.surfaces {
+    border-radius: 20px;
+    box-shadow: var(--cardshadow);
+    width: 100%;
+    height: 60vh;
   }
 </style>
 
@@ -46,7 +58,25 @@
       <MadridCard />
       <MilanCard />
       <LyonCard />
-      <li />
+      <LiverpoolCard />
     </ul>
+
+    <p>
+      Zoals te zien is hebben we gekozen voor 4 steden die zich allemaal in een
+      ander europees land bevinden. Dit hebben wij gedaan om te kunnen
+      vergelijken of maatregelen in een andere stad met meer of minder
+      bevolkingsdichtheid verschil maakt.
+    </p>
+
+    <p class="margintop">
+      In de onderstaande afbeelding is een visuele weergaven te zien van de 4
+      gekozen steden in vierkante kilometer. Het is gek om te zien dat Lyon
+      ongeveer twee keer het aantal inwoners van Liverpool heeft, terwijl het
+      qua oppervlakte twee keer zo klein is.
+    </p>
+
+    <div class="surfaces margintop">
+
+    </div>
   </div>
 </section>
