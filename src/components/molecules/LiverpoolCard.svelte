@@ -1,6 +1,5 @@
 <script>
-  import ThreePersonRowLightblue from '../atoms/3PersonRowLightblue.svelte';
-  import FourteenPersonRowLightblue from '../atoms/14PersonRowLightblue.svelte';
+  import NinePersonRowDarkblue from '../atoms/9PersonRowDarkblue.svelte';
 </script>
 
 <style>
@@ -35,7 +34,7 @@
   li {
     width: 275px;
     height: 375px;
-    background-color: var(--lightblue);
+    background-color: var(--darkblue);
     border-radius: 20px;
     text-align: center;
     box-shadow: var(--cardshadow)
@@ -43,10 +42,9 @@
 </style>
 
 <li>
-  <h4>Lyon</h4>
+  <h4>Liverpool</h4>
   <div>
-    <h5>1.705.000 <br /> <span>Aantal inwoners</span></h5>
-    <ThreePersonRowLightblue />
-    <FourteenPersonRowLightblue />
+    <h5>902.000 <br /> <span>Aantal inwoners</span></h5>
+    <NinePersonRowDarkblue />
   </div>
 </li>

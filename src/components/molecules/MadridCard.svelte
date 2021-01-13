@@ -38,6 +38,7 @@
     background-color: var(--lightred);
     border-radius: 20px;
     text-align: center;
+    box-shadow: var(--cardshadow);
   }
 </style>
 
