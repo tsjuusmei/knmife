@@ -1,6 +1,5 @@
 <script>
-  import ThreePersonRowLightblue from '../atoms/3PersonRowLightblue.svelte';
-  import FourteenPersonRowLightblue from '../atoms/14PersonRowLightblue.svelte';
+  import PersonRowLightblue from '../atoms/PersonLightblue.svelte';
 </script>
 
 <style>
@@ -45,7 +44,6 @@
   <h4>Lyon</h4>
   <div>
     <h5>1.705.000 <br /> <span>Aantal inwoners</span></h5>
-    <ThreePersonRowLightblue />
-    <FourteenPersonRowLightblue />
+    <PersonRowLightblue />
   </div>
 </li>
