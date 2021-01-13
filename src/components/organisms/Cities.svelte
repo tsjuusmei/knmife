@@ -43,8 +43,8 @@
   div.surfaces {
     border-radius: 20px;
     box-shadow: var(--cardshadow);
-    width: 100%;
-    height: 60vh;
+    width: auto;
+    height: auto;
   }
 
   .aligncenter {

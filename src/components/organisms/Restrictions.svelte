@@ -11,9 +11,11 @@
   }
 
   section {
-    height: 100vh;
+    height: fit-content;
     background: url("../images/rounded.bg.gray.svg") no-repeat;
-    background-size: 100%;
+    /* background-size: 100%; */
+    background-size: cover;
+    background-position: center;
     padding: 0 150px;
   }
 
