@@ -3,6 +3,10 @@
   import MilanCard from '../molecules/MilanCard.svelte';
   import LyonCard from '../molecules/LyonCard.svelte';
   import LiverpoolCard from '../molecules/LiverpoolCard.svelte';
+  import MadridSurface from '../molecules/MadridSurface.svelte';
+  import MilanSurface from '../molecules/MilanSurface.svelte';
+  import LyonSurface from '../molecules/LyonSurface.svelte';
+  import LiverpoolSurface from '../molecules/LiverpoolSurface.svelte';
 </script>
 
 <style>
@@ -28,7 +32,7 @@
     list-style-type: none;
     display: flex;
     margin: 110px 0;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0;
   }
 
@@ -41,6 +45,10 @@
     box-shadow: var(--cardshadow);
     width: 100%;
     height: 60vh;
+  }
+
+  .aligncenter {
+    align-items: center;
   }
 </style>
 
@@ -76,7 +84,20 @@
     </p>
 
     <div class="surfaces margintop">
-
+      <ul class="aligncenter">
+        <li>
+          <MadridSurface />
+        </li>
+        <li>
+          <MilanSurface />
+        </li>
+        <li>
+          <LyonSurface />
+        </li>
+        <li>
+          <LiverpoolSurface />
+        </li>
+      </ul>
     </div>
   </div>
 </section>
