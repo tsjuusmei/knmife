@@ -2,7 +2,7 @@
   div {
     margin: 20px;
     display: grid;
-    grid-template-columns: repeat(14, auto);
+    grid-template-columns: repeat(14, 1fr);
     grid-template-rows: auto;
     row-gap: 5px;
   }
