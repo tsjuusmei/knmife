@@ -1,3 +1,9 @@
+<script>
+  import MadridCard from '../molecules/MadridCard.svelte';
+  import MilanCard from '../molecules/MilanCard.svelte'
+  import LyonCard from '../molecules/LyonCard.svelte'
+</script>
+
 <style>
   h3 {
     font-family: 'Sora';
@@ -8,7 +14,7 @@
   }
 
   p {
-    width: 45%;
+    width: 55%;
     line-height: 2em;
     margin: auto;
   }
@@ -24,138 +30,23 @@
     justify-content: space-between;
     padding: 0;
   }
-
-  div {
-    background-color: white;
-    width: 225px;
-    height: 225px;
-    border-radius: 20px;
-    margin: auto;
-  }
-
-  li {
-    width: 275px;
-    height: 375px;
-    background-color: var(--lightred);
-    border-radius: 20px;
-    text-align: center;
-  }
-
-  h4 {
-    color: white;
-    font-size: 30px;
-    text-transform: uppercase;
-  }
-
-  h5 {
-    font-size: 20px;
-    text-align: left;
-    padding: 10% 10% 5%;
-    line-height: 1em;
-    margin-bottom: 0;
-  }
-
-  h5 span {
-    font-size: 16px;
-    color: #A5A5A5;
-    font-weight: 300;
-  }
-
-  img {
-    width: 10px;
-    height: 23px;
-    text-align: left;
-  }
 </style>
 
 <section>
-  <h3>Welke steden hebben wij gekozen en waarom?</h3>
+  <div class="container">
+    <h3>Welke steden hebben wij gekozen en waarom?</h3>
 
-  <p>
-    De volgende steden hebben allemaal te maken gehad met de hierboven
-    aangegeven maatregelen. Om deze steden te kunnen vergelijken hebben we eerst
-    wat data per stad op een rijtje gezet.
-  </p>
+    <p>
+      De volgende steden hebben allemaal te maken gehad met de hierboven
+      aangegeven maatregelen. Om deze steden te kunnen vergelijken hebben we
+      eerst wat data per stad op een rijtje gezet.
+    </p>
 
-  <ul>
-    <li>
-      <h4>Madrid</h4>
-      <div>
-        <h5>6.559.000 <br /> <span>Aantal inwoners</span></h5>
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <br />
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <br />
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <br />
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <br />
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-        <img src="./images/person.svg" alt="">
-      </div>
-    </li>
-    <li />
-    <li />
-    <li />
-  </ul>
+    <ul>
+      <MadridCard />
+      <MilanCard />
+      <LyonCard />
+      <li />
+    </ul>
+  </div>
 </section>
