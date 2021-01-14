@@ -20,9 +20,9 @@
   h5 {
     font-size: 20px;
     text-align: left;
-    padding: 10% 10% 8%;
     line-height: 1em;
-    margin-bottom: 0;
+    margin-left: 20px;
+    padding-top: 25px;
   }
 
   h5 span {
@@ -32,6 +32,7 @@
   }
 
   li {
+    position: relative;
     width: 275px;
     height: 375px;
     background-color: var(--lightblue);
@@ -39,12 +40,27 @@
     text-align: center;
     box-shadow: var(--cardshadow)
   }
+
+  img {
+    height: 15px;
+  }
+
+  p {
+    font-size: 12px;
+    position: absolute;
+    display: flex;
+    top: 175px;
+    align-items: center;
+    justify-content: left;
+    margin-left: 20px;
+  }
 </style>
 
 <li>
   <h4>Lyon</h4>
   <div>
     <h5>1.705.000 <br /> <span>Aantal inwoners</span></h5>
+    <p><img src="./images/person.lightblue.svg" alt="" /> =100.000</p>
     <PersonRowLightblue />
   </div>
 </li>
