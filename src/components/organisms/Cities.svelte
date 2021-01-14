@@ -28,7 +28,7 @@
     margin-top: 4em;
   }
 
-  div.surfaces {
+  div.card {
     border-radius: 20px;
     box-shadow: var(--cardshadow);
     width: auto;
@@ -36,8 +36,13 @@
     padding: 2em 0;
   }
 
-  .surfaces > ul {
+  .card > ul {
     margin: 0;
+  }
+
+  .card > img {
+    display:flex;
+    margin: auto;
   }
 
   .aligncenter {
@@ -80,7 +85,7 @@
       qua oppervlakte twee keer zo klein is.
     </p>
 
-    <div class="surfaces margintop">
+    <div class="card margintop">
       <ul class="aligncenter">
         <li>
           <MadridSurface />
@@ -103,5 +108,9 @@
       laten de hoogste, laagste en gemiddelde NO<sub>2</sub> waarde zien. Onderin zie je
       ook de datum staan van de hoogst en laagst gemeten waarde.
     </p>
+
+    <div class="card margintop">
+      <img src="../images/no2graph.jpg" alt="">
+    </div>
   </div>
 </section>
