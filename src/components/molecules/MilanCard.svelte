@@ -42,7 +42,7 @@
 </style>
 
 <li>
-  <h4>Madrid</h4>
+  <h4>Milan</h4>
   <div>
     <h5>3.136.000 <br /> <span>Aantal inwoners</span></h5>
     <PersonRowYelloworange />
