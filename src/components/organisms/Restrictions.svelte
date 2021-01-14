@@ -18,14 +18,6 @@
     padding: 3px 0;
   }
 
-  h3 {
-    font-family: 'Sora';
-    color: var(--darkblue);
-    font-size: 30px;
-    padding-top: 5%;
-    text-align: center;
-  }
-
   p {
     width: 55%;
     line-height: 2em;
