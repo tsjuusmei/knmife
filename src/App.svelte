@@ -6,10 +6,10 @@
   import No2level from './components/organisms/No2level.svelte';
 </script>
 
-<!-- <Header /> -->
+<Header />
 <main>
-  <!-- <Intro /> -->
-  <!-- <Restrictions /> -->
+  <Intro />
+  <Restrictions />
   <Cities />
   <No2level />
 </main>
