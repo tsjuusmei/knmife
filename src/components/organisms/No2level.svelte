@@ -32,6 +32,10 @@
       background-size: cover;
       background-position: center;
   }
+
+  sub {
+    font-size: var(--sub)
+  }
 </style>
 
 <section>
