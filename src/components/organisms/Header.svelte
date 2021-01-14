@@ -38,9 +38,8 @@
     z-index: 1000;
   }
 
-  span {
-    font-size: 0.4em;
-    font-weight: 700;
+  sub {
+    font-size: var(--sub)
   }
 
   @keyframes pulse {
@@ -60,7 +59,7 @@
 </style>
 
 <header>
-  <h1>De invloed van <br /> COVID-19 op de <br />NO<span>2</span> uitstoot</h1>
+  <h1>De invloed van <br /> COVID-19 op de <br />NO<sub>2</sub> uitstoot</h1>
   <a href="#intro">
     <img src="../images/arrowdown.blue.svg" class="bounce" alt="" />
   </a>

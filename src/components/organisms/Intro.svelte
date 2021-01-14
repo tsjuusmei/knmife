@@ -23,6 +23,10 @@
     margin-left: 150px;
     line-height: 2em;
   }
+
+  sub {
+    font-size: var(--sub);
+  }
 </style>
 
 <section>

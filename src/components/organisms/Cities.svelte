@@ -55,6 +55,10 @@
   .aligncenter {
     align-items: center;
   }
+
+  sub {
+    font-size: var(--sub)
+  }
 </style>
 
 <section>
@@ -106,9 +110,9 @@
     </div>
 
     <p class="margintop">
-      In de onderstaande grafiek staan de gemeten NO2 waardes over de periode
+      In de onderstaande grafiek staan de gemeten NO<sub>2</sub> waardes over de periode
       van 02-03-2020. De balken zijn in de kleur van correspoderende stad en
-      laten de hoogste, laagste en gemiddelde NO2 waarde zien. Onderin zie je
+      laten de hoogste, laagste en gemiddelde NO<sub>2</sub> waarde zien. Onderin zie je
       ook de datum staan van de hoogst en laagst gemeten waarde.
     </p>
   </div>
