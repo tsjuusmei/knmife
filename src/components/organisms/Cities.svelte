@@ -16,10 +16,6 @@
     margin: auto;
   }
 
-  section {
-    height: 100vh;
-  }
-
   ul {
     list-style-type: none;
     display: flex;
