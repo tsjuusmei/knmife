@@ -4,6 +4,7 @@
     font-size: 16px;
     font-weight: 700;
     text-align: center;
+    margin: 0;
   }
 
   img {
