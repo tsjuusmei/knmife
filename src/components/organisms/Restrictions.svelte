@@ -1,8 +1,8 @@
 <script>
-  import StayHome from '../molecules/StayHome.svelte'
-  import Teleworking from '../molecules/Teleworking.svelte'
-  import MassGather from '../molecules/MassGather.svelte'
-  import Closepub from '../molecules/Closepub.svelte'
+  import StayHome from '../molecules/StayHome.svelte';
+  import Teleworking from '../molecules/Teleworking.svelte';
+  import MassGather from '../molecules/MassGather.svelte';
+  import Closepub from '../molecules/Closepub.svelte';
 </script>
 
 <style>
@@ -11,16 +11,15 @@
   }
 
   section {
-    height: fit-content;
-    background: url("../images/rounded.bg.gray.svg") no-repeat;
-    /* background-size: 100%; */
+    height:fit-content;
+    background: url('../images/rounded.bg.gray.svg') no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 0 150px;
+    padding: 3px 0;
   }
 
   h3 {
-    font-family: "Sora";
+    font-family: 'Sora';
     color: var(--darkblue);
     font-size: 30px;
     padding-top: 5%;
@@ -54,10 +53,18 @@
     </p>
 
     <ul>
-      <li><StayHome /></li>
-      <li><Teleworking /></li>
-      <li><MassGather /></li>
-      <li><Closepub /></li>
+      <li>
+        <StayHome />
+      </li>
+      <li>
+        <Teleworking />
+      </li>
+      <li>
+        <MassGather />
+      </li>
+      <li>
+        <Closepub />
+      </li>
     </ul>
   </div>
 </section>
