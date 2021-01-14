@@ -45,6 +45,11 @@
     box-shadow: var(--cardshadow);
     width: auto;
     height: auto;
+    padding: 2em 0;
+  }
+
+  .surfaces > ul {
+    margin: 0;
   }
 
   .aligncenter {
@@ -99,5 +104,12 @@
         </li>
       </ul>
     </div>
+
+    <p class="margintop">
+      In de onderstaande grafiek staan de gemeten NO2 waardes over de periode
+      van 02-03-2020. De balken zijn in de kleur van correspoderende stad en
+      laten de hoogste, laagste en gemiddelde NO2 waarde zien. Onderin zie je
+      ook de datum staan van de hoogst en laagst gemeten waarde.
+    </p>
   </div>
 </section>
