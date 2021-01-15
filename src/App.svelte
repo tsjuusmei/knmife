@@ -4,6 +4,7 @@
   import Restrictions from './components/organisms/Restrictions.svelte';
   import Cities from './components/organisms/Cities.svelte';
   import No2level from './components/organisms/No2level.svelte';
+  import ActiveRestrictions from './components/organisms/ActiveRestrictions.svelte'
 </script>
 
 <Header />
@@ -12,4 +13,5 @@
   <Restrictions />
   <Cities />
   <No2level />
+  <ActiveRestrictions />
 </main>

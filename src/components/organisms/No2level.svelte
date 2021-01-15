@@ -1,6 +1,7 @@
 <style>
+
   section {
-    height: 100vh;
+    margin-bottom: 10%;
   }
 
   .list {

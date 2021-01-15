@@ -12,9 +12,10 @@
 
   section {
     height:fit-content;
-    background: url('../images/rounded.bg.gray.svg') no-repeat;
+    background-color: #EDEDED;
+    /* background: url('../images/rounded.bg.gray.svg') no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
     padding: 3px 0;
   }
 
@@ -33,30 +34,32 @@
   }
 </style>
 
-<section>
-  <div class="container">
-    <h3>Welke maatregelen hebben wij gekozen en waarom</h3>
+<div class="roundededge">
+  <section>
+    <div class="container">
+      <h3>Welke maatregelen hebben wij gekozen en waarom</h3>
 
-    <p>
-      We hebben de onderstaande maatregelen gekozen om te gebruiken voor ons
-      onderzoek. Deze keuzes hebben wij aan de hand van een bestand dat alle
-      actieve maatregelen per land weergeeft in een schema en de google earth
-      engine gemaakt.
-    </p>
+      <p>
+        We hebben de onderstaande maatregelen gekozen om te gebruiken voor ons
+        onderzoek. Deze keuzes hebben wij aan de hand van een bestand dat alle
+        actieve maatregelen per land weergeeft in een schema en de google earth
+        engine gemaakt.
+      </p>
 
-    <ul>
-      <li>
-        <StayHome />
-      </li>
-      <li>
-        <Teleworking />
-      </li>
-      <li>
-        <MassGather />
-      </li>
-      <li>
-        <Closepub />
-      </li>
-    </ul>
-  </div>
-</section>
+      <ul>
+        <li>
+          <StayHome />
+        </li>
+        <li>
+          <Teleworking />
+        </li>
+        <li>
+          <MassGather />
+        </li>
+        <li>
+          <Closepub />
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
