@@ -50,6 +50,10 @@ p {
   margin: auto;
 }
 
+sub {
+  line-height: 0;
+}
+
 .roundededge::before {
   content: url('../images/rounded.bg.gray1.svg');
   margin-bottom: -5px;
