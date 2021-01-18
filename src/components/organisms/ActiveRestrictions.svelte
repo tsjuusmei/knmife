@@ -1,9 +1,12 @@
+<script>
+  import ChartExample from '../molecules/ChartExample.svelte'
+</script>
 
 <div class="roundededge">
-  <section>
+  <!-- <section>
     <div class="container">
       <h3>Actieve maatregelen weergegeven per week</h3>
-    
+
       <p>
         De maatregelen hieronder hebben het meeste invloed op de uitstoot van NO2.
         Door deze maatregelen is er minder verkeer op de wegen, en dus ook minder
@@ -11,20 +14,22 @@
         minder, zoals hieronder staat aangetoont in een paar kleine
         vergelijkingen.
       </p>
-    
+
       <h4>Madrid</h4>
       <img src="./images/madridrestrictions.svg" alt="" />
-    
+
       <h4>Milan</h4>
       <img src="./images/milanrestrictions.svg" alt="" />
-    
+
       <h4>Lyon</h4>
       <img src="./images/lyonrestrictions.svg" alt="" />
-    
+
       <h4>Liverpool</h4>
       <img src="./images/liverpoolrestrictions.svg" alt="" />
     </div>
-  </section>
+  </section> -->
+
+  <ChartExample />
 </div>
 
 <style>
@@ -38,3 +43,5 @@
     background-color: #EDEDED;
   }
 </style>
+
+<ChartExample />
