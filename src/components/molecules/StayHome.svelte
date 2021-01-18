@@ -19,7 +19,7 @@
     text-align: center;
     margin: 0 auto 10px auto;
     width: auto;
-    color: var(--lightblue);
+    color: var(--darkblue);
   }
 
   p {
