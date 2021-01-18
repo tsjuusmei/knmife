@@ -28,16 +28,6 @@
 </div>
 
 <style>
-  p {
-    width: 55%;
-    line-height: 2em;
-    margin: auto;
-  }
-
-  h3 {
-    margin: 0;
-  }
-
   h4 {
     font-family: 'Sora';
     color: var(--darkblue);

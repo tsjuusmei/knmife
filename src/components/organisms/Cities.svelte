@@ -10,12 +10,6 @@
 </script>
 
 <style>
-  p {
-    width: 55%;
-    line-height: 2em;
-    margin: auto;
-  }
-
   ul {
     list-style-type: none;
     display: flex;

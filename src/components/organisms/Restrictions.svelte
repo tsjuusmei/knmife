@@ -6,10 +6,6 @@
 </script>
 
 <style>
-  p {
-    width: 35%;
-  }
-
   section {
     height:fit-content;
     background-color: #EDEDED;
@@ -17,12 +13,6 @@
     background-size: cover;
     background-position: center; */
     padding: 3px 0;
-  }
-
-  p {
-    width: 55%;
-    line-height: 2em;
-    margin: auto;
   }
 
   ul {

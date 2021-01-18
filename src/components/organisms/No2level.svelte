@@ -37,6 +37,11 @@
   sub {
     font-size: var(--sub)
   }
+
+  p {
+    margin: 10px auto;
+    text-align: center;
+  }
 </style>
 
 <section>

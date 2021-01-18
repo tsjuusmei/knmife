@@ -37,7 +37,17 @@ h3 {
   color: var(--darkblue);
   font-size: 30px;
   padding-top: 5%;
+  margin: 0 auto 20px auto;
   text-align: center;
+  width: 55%;
+  max-width: 38em;
+}
+
+p {
+  width: 55%;
+  max-width: 38em;
+  line-height: 1.2em;
+  margin: auto;
 }
 
 .roundededge::before {

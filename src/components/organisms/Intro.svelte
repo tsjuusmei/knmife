@@ -13,15 +13,8 @@
     font-family: 'Sora';
     font-size: 72px;
     text-align: center;
-    margin-right: 5%;
+    margin: 5% auto;
     color: var(--darkblue);
-  }
-
-  p {
-    font-size: 16px;
-    width: 45%;
-    margin-left: 150px;
-    line-height: 2em;
   }
 
   sub {
