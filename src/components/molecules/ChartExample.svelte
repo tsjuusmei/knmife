@@ -1,91 +1,123 @@
 <script>
-  import * as d3 from 'd3';
+  import { scaleLinear } from 'd3-scale';
+  import points from '../../../public/testData';
 
-  // set the dimensions and margins of the graph
-  var margin = { top: 20, right: 20, bottom: 30, left: 50 },
-    width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+  const yTicks = [0, 2, 4, 6, 8];
+  const xTicks = [1980, 1990, 2000, 2010];
+  const padding = { top: 20, right: 15, bottom: 20, left: 25 };
 
-  // parse the date / time
-  var parseTime = d3.timeParse('%d-%b-%y');
+  let width = 500;
+  let height = 200;
 
-  // set the ranges
-  var x = d3.scaleTime().range([0, width]);
-  var y = d3.scaleLinear().range([height, 0]);
+  $: xScale = scaleLinear()
+    .domain([minX, maxX])
+    .range([padding.left, width - padding.right]);
 
-  // define the 1st line
-  var valueline = d3
-    .line()
-    .x(function (d) {
-      return x(d.date);
-    })
-    .y(function (d) {
-      return y(d.close);
-    });
+  $: yScale = scaleLinear()
+    .domain([Math.min.apply(null, yTicks), Math.max.apply(null, yTicks)])
+    .range([height - padding.bottom, padding.top]);
 
-  // define the 2nd line
-  var valueline2 = d3
-    .line()
-    .x(function (d) {
-      return x(d.date);
-    })
-    .y(function (d) {
-      return y(d.open);
-    });
+  $: minX = points[0].x;
+  $: maxX = points[points.length - 1].x;
+  $: path = `M${points.map((p) => `${xScale(p.x)},${yScale(p.y)}`).join('L')}`;
+  $: area = `${path}L${xScale(maxX)},${yScale(0)}L${xScale(minX)},${yScale(
+    0
+  )}Z`;
 
-  // append the svg obgect to the body of the page
-  // appends a 'group' element to 'svg'
-  // moves the 'group' element to the top left margin
-  var svg = d3
-    .select('div.chart')
-    .append('svg')
-    .attr('width', width + margin.left + margin.right)
-    .attr('height', height + margin.top + margin.bottom)
-    .append('g')
-    .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
-
-  // Get the data
-  d3.csv('./testData.csv').then(function (data) {
-    // format the data
-    data.forEach(function (d) {
-      d.date = parseTime(d.date);
-      d.close = +d.close;
-      d.open = +d.open;
-    });
-
-    // Scale the range of the data
-    x.domain(
-      d3.extent(data, function (d) {
-        return d.date;
-      })
-    );
-    y.domain([
-      0,
-      d3.max(data, function (d) {
-        return Math.max(d.close, d.open);
-      }),
-    ]);
-
-    // Add the valueline path.
-    svg.append('path').data([data]).attr('class', 'line').attr('d', valueline);
-
-    // Add the valueline2 path.
-    svg
-      .append('path')
-      .data([data])
-      .attr('class', 'line')
-      .style('stroke', 'red')
-      .attr('d', valueline2);
-
-    // Add the X Axis
-    svg
-      .append('g')
-      .attr('transform', 'translate(0,' + height + ')')
-      .call(d3.axisBottom(x));
-
-    // Add the Y Axis
-    svg.append('g').call(d3.axisLeft(y));
-  });
+  function formatMobile(tick) {
+    return "'" + tick.toString().slice(-2);
+  }
 </script>
 
-<div class="chart" />
+<h2>Arctic sea ice minimum</h2>
+
+<div class="chart" bind:clientWidth={width} bind:clientHeight={height}>
+  <svg>
+    <!-- y axis -->
+    <g class="axis y-axis" transform="translate(0, {padding.top})">
+      {#each yTicks as tick}
+        <g
+          class="tick tick-{tick}"
+          transform="translate(0, {yScale(tick) - padding.bottom})">
+          <line x2="100%" />
+          <text y="-4">{tick} {tick === 8 ? ' million sq km' : ''}</text>
+        </g>
+      {/each}
+    </g>
+
+    <!-- x axis -->
+    <g class="axis x-axis">
+      {#each xTicks as tick}
+        <g
+          class="tick tick-{tick}"
+          transform="translate({xScale(tick)},{height})">
+          <line y1="-{height}" y2="-{padding.bottom}" x1="0" x2="0" />
+          <text y="-2">{width > 380 ? tick : formatMobile(tick)}</text>
+        </g>
+      {/each}
+    </g>
+
+    <!-- data -->
+    <!-- <path class="path-area" d={area} /> -->
+    <path class="path-line" d={path} />
+  </svg>
+</div>
+
+<p>
+  Average September extent. Source: <a
+    href="https://climate.nasa.gov/vital-signs/arctic-sea-ice/">NSIDC/NASA</a
+  >
+</p>
+
+<style>
+  .chart,
+  h2,
+  p {
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  svg {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: visible;
+  }
+
+  .tick {
+    font-size: 0.725em;
+    font-weight: 200;
+  }
+
+  .tick line {
+    stroke: #aaa;
+    stroke-dasharray: 2;
+  }
+
+  .tick text {
+    fill: #666;
+    text-anchor: start;
+  }
+
+  .tick.tick-0 line {
+    stroke-dasharray: 0;
+  }
+
+  .x-axis .tick text {
+    text-anchor: middle;
+  }
+
+  .path-line {
+    fill: none;
+    stroke: rgb(0, 100, 100);
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-width: 2;
+  }
+
+  .path-area {
+    fill: rgba(0, 100, 100, 0.2);
+  }
+</style>

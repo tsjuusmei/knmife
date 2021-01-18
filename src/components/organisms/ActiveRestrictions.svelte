@@ -43,5 +43,3 @@
     background-color: #EDEDED;
   }
 </style>
-
-<ChartExample />
