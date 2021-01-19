@@ -13,22 +13,22 @@
 </style>
 
 <div>
-  <img src="./images/person.lightblue.svg" alt="" />
-  <img src="./images/person.lightblue.svg" alt="" />
-  <img src="./images/person.lightblue.svg" alt="" />
-  <img src="./images/person.lightblue.svg" alt="" />
-  <img src="./images/person.lightblue.svg" alt="" />
-  <img src="./images/person.lightblue.svg" alt="" />
-  <img src="./images/person.lightblue.svg" alt="" />
-  <img src="./images/person.lightblue.svg" alt="" />
-  <img src="./images/person.lightblue.svg" alt="" />
-  <img src="./images/person.lightblue.svg" alt="" />
-  <img src="./images/person.lightblue.svg" alt="" />
-  <img src="./images/person.lightblue.svg" alt="" />
-  <img src="./images/person.lightblue.svg" alt="" />
-  <img src="./images/person.lightblue.svg" alt="" />
-  <img src="./images/person.lightblue.svg" alt="" />
-  <img src="./images/person.lightblue.svg" alt="" />
-  <img src="./images/person.lightblue.svg" alt="" />
-  <img src="./images/person.lightblue.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
+  <img src="./images/person.lyon.svg" alt="" />
 </div>

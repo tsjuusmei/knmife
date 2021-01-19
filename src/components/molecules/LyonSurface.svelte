@@ -1,6 +1,6 @@
 <style>
   h5 {
-    color: var(--lightblue);
+    color: var(--lyon);
     font-size: 16px;
     font-weight: 700;
     text-align: center;

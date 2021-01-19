@@ -41,6 +41,7 @@
 
   .aligncenter {
     align-items: center;
+    text-align: center;
   }
 
   sub {

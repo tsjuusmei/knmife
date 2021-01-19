@@ -35,7 +35,7 @@
     position: relative;
     width: 275px;
     height: 375px;
-    background-color: var(--lightblue);
+    background-color: var(--lyon);
     border-radius: 20px;
     text-align: center;
     box-shadow: var(--cardshadow)
@@ -61,7 +61,7 @@
   <h4>Lyon</h4>
   <div>
     <h5>1.705.000 <br /> <span>Aantal inwoners</span></h5>
-    <p><img src="./images/person.lightblue.svg" alt="" /> =100.000</p>
+    <p><img src="./images/person.lyon.svg" alt="" /> =100.000</p>
     <PersonRowLightblue />
   </div>
 </li>
