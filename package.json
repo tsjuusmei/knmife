@@ -14,5 +14,17 @@
     "svelte-hmr": "^0.12.3",
     "svelte-preprocess": "^4.6.1",
     "svite": "^0.8.1"
-  }
+  },
+  "description": "*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*",
+  "main": "svelte.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsjuusmei/knmife.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsjuusmei/knmife/issues"
+  },
+  "homepage": "https://github.com/tsjuusmei/knmife#readme"
 }
