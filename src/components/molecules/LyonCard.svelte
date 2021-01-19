@@ -61,7 +61,7 @@
   <h4>Lyon</h4>
   <div>
     <h5>1.705.000 <br /> <span>Aantal inwoners</span></h5>
-    <p><img src="./images/person.lightblue.svg" alt="" /> =100.000</p>
+    <p><img src="./images/person.lyon.svg" alt="" /> =100.000</p>
     <PersonRowLightblue />
   </div>
 </li>

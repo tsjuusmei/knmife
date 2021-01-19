@@ -61,7 +61,7 @@
   <h4>Madrid</h4>
   <div>
     <h5>6.559.000 <br /> <span>Aantal inwoners</span></h5>
-    <p><img src="./images/person.lightred.svg" alt="" /> =100.000</p>
+    <p><img src="./images/person.madrid.svg" alt="" /> =100.000</p>
     <PersonRowLightred />
   </div>
 </li>
