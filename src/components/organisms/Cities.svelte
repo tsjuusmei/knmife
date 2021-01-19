@@ -51,11 +51,12 @@
 
 <section>
   <div class="container">
-    <h3>Welke steden hebben wij gekozen en waarom?</h3>
+    <h3>Steden met grote uitstoot verschillen</h3>
 
     <p>
       De volgende steden hebben allemaal te maken gehad met de hierboven
-      aangegeven maatregelen. Om deze steden te kunnen vergelijken hebben we
+      aangegeven maatregelen, en hebben een grote reductie in NO<sub>2</sub> 
+      gehad. Om deze steden te kunnen vergelijken hebben we
       eerst wat data per stad op een rijtje gezet.
     </p>
 
@@ -67,17 +68,22 @@
     </ul>
 
     <p>
-      Zoals te zien is hebben we gekozen voor 4 steden die zich allemaal in een
-      ander europees land bevinden. Dit hebben wij gedaan om te kunnen
-      vergelijken of maatregelen in een andere stad met meer of minder
-      bevolkingsdichtheid verschil maakt.
+      De 4 steden bevinden zich allemaal in een ander europees land. Hierdoor is 
+      het makkelijker om de invloed van maatregelen te onderzoeken, en het maakt 
+      de vergelijkingen begrijpelijker. Ook zijn dit allemaal westerse steden met 
+      een andere bevolkingsdichtheid. Dit kan ook invloed hebben met de uitstoot.
     </p>
 
     <p class="margintop">
-      In de onderstaande afbeelding is een visuele weergaven te zien van de 4
-      gekozen steden in vierkante kilometer. Het is gek om te zien dat Lyon
+      In de onderstaande afbeelding is een visuele weergaven te zien van de 
+      oppervlakte van de steden. Hierbij valt het op dat Lyon twee keer het aantal 
+      inwoners van Liverpool heeft, maar tegelijkertijd ook de helft van de oppervlakte 
+      heeft. 
+      
+      Het is gek om te zien dat Lyon
       ongeveer twee keer het aantal inwoners van Liverpool heeft, terwijl het
-      qua oppervlakte twee keer zo klein is.
+      qua oppervlakte twee keer zo klein is. Hetzelfde geld voor Milaan en Lyon. Dit komt 
+      door de grote industrie die Milaan heeft.
     </p>
 
     <div class="card margintop">
@@ -98,8 +104,8 @@
     </div>
 
     <p class="margintop">
-      In de onderstaande grafiek staan de gemeten NO<sub>2</sub> waardes over de periode
-      van 02-03-2020. De balken zijn in de kleur van correspoderende stad en
+      In de barchart hieronder staan de gemeten NO<sub>2</sub> waardes over de COVID-19 
+      periode. De balken zijn in de kleur van correspoderende stad en
       laten de hoogste, laagste en gemiddelde NO<sub>2</sub> waarde zien. Onderin zie je
       ook de datum staan van de hoogst en laagst gemeten waarde.
     </p>

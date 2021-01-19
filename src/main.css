@@ -53,6 +53,7 @@ p {
 
 sub {
   line-height: 0;
+  font-size: var(--sub)
 }
 
 .roundededge::before {

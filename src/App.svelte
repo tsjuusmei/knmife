@@ -4,8 +4,10 @@
   import Restrictions from './components/organisms/Restrictions.svelte';
   import Cities from './components/organisms/Cities.svelte';
   import No2level from './components/organisms/No2level.svelte';
-  import ActiveRestrictions from './components/organisms/ActiveRestrictions.svelte'
-  import MugModels from './components/organisms/MugModels.svelte'
+  import ActiveRestrictions from './components/organisms/ActiveRestrictions.svelte';
+  import MugModels from './components/organisms/MugModels.svelte';
+  import Conclusion from './components/organisms/Conclusion.svelte';
+  import Footer from './components/organisms/Footer.svelte';
 </script>
 
 <Header />
@@ -15,5 +17,7 @@
   <Cities />
   <No2level />
   <ActiveRestrictions />
+  <Conclusion />
   <MugModels />
+  <Footer />
 </main>

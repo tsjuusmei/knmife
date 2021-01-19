@@ -27,13 +27,13 @@
 <div class="roundededge">
   <section>
     <div class="container">
-      <h3>Welke maatregelen hebben wij gekozen en waarom</h3>
+      <h3>Welke maatregelen hebben invloed op NO<sub>2</sub></h3>
 
       <p>
-        We hebben de onderstaande maatregelen gekozen om te gebruiken voor ons
-        onderzoek. Deze keuzes hebben wij aan de hand van een bestand dat alle
-        actieve maatregelen per land weergeeft in een schema en de google earth
-        engine gemaakt.
+        De onderstaande maatregelen zullen een grote invloed kunnen hebben op NO<sub>2</sub> uitstoot. Door de maatregelen wordt er namelijk veel verkeer op stop gezet, wat de uitstoot erg verminderd aangezien vervoer de grootste uitstoter is van NO<sub>2</sub>.
+        
+        Deze maatregelen zijn aan de hand van satellietdata via de google earth
+        engine uitgekozen en vergeleken met peroides waarin de maatregelen niet actief waren.
       </p>
 
       <ul>

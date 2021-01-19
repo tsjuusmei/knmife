@@ -38,10 +38,6 @@
     z-index: 1000;
   }
 
-  sub {
-    font-size: var(--sub)
-  }
-
   @keyframes pulse {
     0% {
       transform: none;
@@ -59,7 +55,7 @@
 </style>
 
 <header>
-  <h1>De invloed van <br /> COVID-19 op de <br />NO<sub>2</sub> uitstoot</h1>
+  <h1>Hoe COVID-19 de<br>lucht schoner<br>maakt</h1>
   <a href="#intro">
     <img src="../images/arrowdown.blue.svg" class="bounce" alt="" />
   </a>
