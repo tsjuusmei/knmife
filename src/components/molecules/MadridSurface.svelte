@@ -1,6 +1,6 @@
 <style>
   h5 {
-    color: var(--lightred);
+    color: var(--madrid);
     font-size: 16px;
     font-weight: 700;
     text-align: center;

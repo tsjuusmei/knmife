@@ -35,7 +35,7 @@
     position: relative;
     width: 275px;
     height: 375px;
-    background-color: var(--darkblue);
+    background-color: var(--liverpool);
     border-radius: 20px;
     text-align: center;
     box-shadow: var(--cardshadow)

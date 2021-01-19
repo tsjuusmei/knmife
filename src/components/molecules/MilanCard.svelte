@@ -35,7 +35,7 @@
     position: relative;
     width: 275px;
     height: 375px;
-    background-color: var(--yelloworange);
+    background-color: var(--milan);
     border-radius: 20px;
     text-align: center;
     box-shadow: var(--cardshadow)

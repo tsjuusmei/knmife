@@ -1,6 +1,6 @@
 <style>
   h5 {
-    color: var(--yelloworange);
+    color: var(--milan);
     font-size: 16px;
     font-weight: 700;
     text-align: center;

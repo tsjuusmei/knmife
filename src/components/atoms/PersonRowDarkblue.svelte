@@ -13,13 +13,13 @@
 </style>
 
 <div>
-  <img src="./images/person.darkblue.svg" alt="" />
-  <img src="./images/person.darkblue.svg" alt="" />
-  <img src="./images/person.darkblue.svg" alt="" />
-  <img src="./images/person.darkblue.svg" alt="" />
-  <img src="./images/person.darkblue.svg" alt="" />
-  <img src="./images/person.darkblue.svg" alt="" />
-  <img src="./images/person.darkblue.svg" alt="" />
-  <img src="./images/person.darkblue.svg" alt="" />
-  <img src="./images/person.darkblue.svg" alt="" />
+  <img src="./images/person.liverpool.svg" alt="" />
+  <img src="./images/person.liverpool.svg" alt="" />
+  <img src="./images/person.liverpool.svg" alt="" />
+  <img src="./images/person.liverpool.svg" alt="" />
+  <img src="./images/person.liverpool.svg" alt="" />
+  <img src="./images/person.liverpool.svg" alt="" />
+  <img src="./images/person.liverpool.svg" alt="" />
+  <img src="./images/person.liverpool.svg" alt="" />
+  <img src="./images/person.liverpool.svg" alt="" />
 </div>
