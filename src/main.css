@@ -1,12 +1,12 @@
 :root {
-  --lightblue: #76B7CE;
-  --darkblue: #1F3B62;
+  --lightblue: #76b7ce;
+  --darkblue: #1f3b62;
   --grey: lightgrey;
-  --lightred: #F27B88;
-  --yelloworange: #FEB96E;
+  --lightred: #f27b88;
+  --yelloworange: #feb96e;
   --cloud: #f2f2f2;
-  --cardshadow: 2px 2px 13px rgba(0, 0, 0, .2);
-  --sub: .5em;
+  --cardshadow: 2px 2px 13px rgba(0, 0, 0, 0.2);
+  --sub: 0.5em;
 }
 
 html,
@@ -63,6 +63,6 @@ sub {
 .roundededge::after {
   content: url('../images/rounded.bg.gray1.svg');
   transform: rotate(180deg);
-  display:block;
+  display: block;
   margin-top: -5px;
 }
