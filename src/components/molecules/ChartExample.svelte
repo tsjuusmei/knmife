@@ -1,6 +1,6 @@
 <script>
   import { scaleLinear } from 'd3-scale';
-  import points from '../../../public/testData';
+  import points from '../../../public/data/graph';
 
   const yTicks = [0, 2, 4, 6, 8];
   const xTicks = [1980, 1990, 2000, 2010];
@@ -62,12 +62,6 @@
     <path class="path-line" d={path} />
   </svg>
 </div>
-
-<p>
-  Average September extent. Source: <a
-    href="https://climate.nasa.gov/vital-signs/arctic-sea-ice/">NSIDC/NASA</a
-  >
-</p>
 
 <style>
   .chart,

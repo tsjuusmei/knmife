@@ -1,5 +1,5 @@
 <script>
-  import ChartExample from '../molecules/ChartExample.svelte'
+  import ChartExample from '../molecules/ChartExample.svelte';
 </script>
 
 <div class="roundededge">
@@ -33,13 +33,13 @@
 </div>
 
 <style>
-  h4 {
+  /* h4 {
     font-family: 'Sora';
     color: var(--darkblue);
     font-size: 1.5em;
   }
 
   section {
-    background-color: #EDEDED;
-  }
+    background-color: #ededed;
+  } */
 </style>
