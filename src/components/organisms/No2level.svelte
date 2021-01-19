@@ -53,7 +53,7 @@
 <section>
   <div class="container">
     <h3>NO<sub>2</sub> waardes in vergelijking met vorig jaar</h3>
-    <p>Hierbij wordt de uitstoot vergeleken ten oopzichte van 2019. Deze afbeeldingen zijn afkomstig uit de Tropomi sateliet, en laten de NO2 uitstoot over een bepaalde periode zien. De data is verzameld over de periode met de meeste NO2 reductie, en vergeleken met dezelfde periode in 2019. <br>De steden staan in het midden van de afbeeldingen.</p>
+    <p>Hierbij wordt de uitstoot vergeleken ten opzichte van 2019. Deze afbeeldingen zijn afkomstig uit de Tropomi sateliet, en laten de NO2 uitstoot over een bepaalde periode zien. De data is verzameld over de periode met de meeste NO2 reductie, en vergeleken met dezelfde periode in 2019. <br>De steden staan in het midden van de afbeeldingen.</p>
     <div class="list">
         <div>
             <h5>Madrid</h5>
