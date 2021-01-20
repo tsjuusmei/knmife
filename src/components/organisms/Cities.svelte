@@ -110,10 +110,6 @@
       zie je ook de datum staan van de hoogst en laagst gemeten waarde.
     </p>
 
-    <div class="card margintop">
-      <img src="../images/no2graph.jpg" alt="" />
-    </div>
-
     <Barchart />
   </div>
 </section>

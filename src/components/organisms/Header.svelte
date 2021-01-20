@@ -2,11 +2,7 @@
   import Clouds from '../molecules/Clouds.svelte';
 </script>
 
-<style>
-  * {
-    margin: 0;
-    padding: 0;
-  }
+<style type="text/scss">
   header {
     position: relative;
     height: 100vh;
@@ -16,21 +12,26 @@
     text-align: center;
     background: url('../images/bg.white.svg') repeat-x bottom;
     background-size: 70%;
-    background-color: var(--grey);
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: -999;
+      background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);;
+    }
   }
 
   img {
-    position: relative;
+    position: absolute;
     width: 80px;
     bottom: 4vh;
     margin: 0 auto;
     animation: pulse 2s 3s ease-out infinite;
     z-index: 1000;
-  }
-
-  a {
-    position: absolute;
-    bottom: 0;
   }
 
   @keyframes pulse {
@@ -51,8 +52,6 @@
 
 <header>
   <h1>Hoe COVID-19 de<br />lucht schoner maakt</h1>
-  <a href="#intro">
-    <img src="../images/arrowdown.blue.svg" class="bounce" alt="" />
-  </a>
+  <img src="../images/arrowdown.blue.svg" class="bounce" alt="" />
   <Clouds />
 </header>
