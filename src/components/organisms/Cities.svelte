@@ -7,6 +7,7 @@
   import MilanSurface from '../molecules/MilanSurface.svelte';
   import LyonSurface from '../molecules/LyonSurface.svelte';
   import LiverpoolSurface from '../molecules/LiverpoolSurface.svelte';
+  import Barchart from '../molecules/Barchart.svelte';
 </script>
 
 <style>
@@ -112,5 +113,7 @@
     <div class="card margintop">
       <img src="../images/no2graph.jpg" alt="" />
     </div>
+
+    <Barchart />
   </div>
 </section>
