@@ -124,18 +124,18 @@
   }
 
   .milancolor {
-    color: var(--milan)
+    color: var(--milan);
   }
 
   .madridcolor {
-    color: var(--madrid)
+    color: var(--madrid);
   }
 
   .lyoncolor {
-    color: var(--lyon)
+    color: var(--lyon);
   }
 
   .liverpoolcolor {
-    color: var(--liverpool)
+    color: var(--liverpool);
   }
 </style>
