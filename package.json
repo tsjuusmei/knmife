@@ -1,5 +1,5 @@
 {
-  "name": "KNMI Tropomi",
+  "name": "knmi-tropomi",
   "version": "1.0.0",
   "description": "A project for KNMI that shows NO² emissions with the restrictions from COVID",
   "author": "Guus Maij",

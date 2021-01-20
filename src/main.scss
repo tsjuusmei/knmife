@@ -32,14 +32,30 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
 
-div.container {
-  max-width: 74rem;
-  margin: 0 auto;
+main {
+
+  & > section {
+    padding: 8rem 0;
+
+    div {
+
+      &.container {
+        max-width: 74rem;
+        margin: 0 auto;
+      }
+
+      & > p {
+        width: 55%;
+        margin: 0 auto;
+      }
+    }
+  }
 }
 
 h1,
 h2,
 h3 {
+  margin: 0 0 2rem;
   font-family: 'Sora';
   color: var(--darkblue);
   font-weight: 700;
@@ -48,8 +64,6 @@ h3 {
 
 h1 {
   font-size: var(--heading-1);
-  margin: auto;
-  z-index: 1000;
 }
 
 h2 {
@@ -58,33 +72,19 @@ h2 {
 
 h3 {
   font-size: var(--heading-3);
-  padding-top: 5%;
-  margin: 0 auto 20px auto;
-  width: 55%;
-  max-width: 38em;
+  text-align: center;
 }
 
 p {
-  width: 55%;
-  max-width: 38em;
   line-height: 150%;
-  margin: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
 
 sub {
   line-height: 0;
   font-size: var(--sub);
-}
-
-.roundededge::before {
-  content: url('../images/rounded.bg.gray1.svg');
-  margin-bottom: -5px;
-  display: block;
-}
-
-.roundededge::after {
-  content: url('../images/rounded.bg.gray1.svg');
-  transform: rotate(180deg);
-  display: block;
-  margin-top: -5px;
 }

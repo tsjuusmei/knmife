@@ -35,7 +35,7 @@
   }
 
   .card > img {
-    display:flex;
+    display: flex;
     margin: auto;
   }
 
@@ -45,7 +45,7 @@
   }
 
   sub {
-    font-size: var(--sub)
+    font-size: var(--sub);
   }
 </style>
 
@@ -56,8 +56,8 @@
     <p>
       De volgende steden hebben allemaal te maken gehad met de hierboven
       aangegeven maatregelen, en hebben een grote reductie in NO<sub>2</sub>
-      gehad. Om deze steden te kunnen vergelijken hebben we
-      eerst wat data per stad op een rijtje gezet.
+      gehad. Om deze steden te kunnen vergelijken hebben we eerst wat data per stad
+      op een rijtje gezet.
     </p>
 
     <ul>
@@ -70,20 +70,19 @@
     <p>
       De 4 steden bevinden zich allemaal in een ander europees land. Hierdoor is
       het makkelijker om de invloed van maatregelen te onderzoeken, en het maakt
-      de vergelijkingen begrijpelijker. Ook zijn dit allemaal westerse steden met
-      een andere bevolkingsdichtheid. Dit kan ook invloed hebben met de uitstoot.
+      de vergelijkingen begrijpelijker. Ook zijn dit allemaal westerse steden
+      met een andere bevolkingsdichtheid. Dit kan ook invloed hebben met de
+      uitstoot.
     </p>
 
     <p class="margintop">
       In de onderstaande afbeelding is een visuele weergaven te zien van de
-      oppervlakte van de steden. Hierbij valt het op dat Lyon twee keer het aantal
-      inwoners van Liverpool heeft, maar tegelijkertijd ook de helft van de oppervlakte
-      heeft.
-
-      Het is gek om te zien dat Lyon
-      ongeveer twee keer het aantal inwoners van Liverpool heeft, terwijl het
-      qua oppervlakte twee keer zo klein is. Hetzelfde geld voor Milaan en Lyon. Dit komt
-      door de grote industrie die Milaan heeft.
+      oppervlakte van de steden. Hierbij valt het op dat Lyon twee keer het
+      aantal inwoners van Liverpool heeft, maar tegelijkertijd ook de helft van
+      de oppervlakte heeft. Het is gek om te zien dat Lyon ongeveer twee keer
+      het aantal inwoners van Liverpool heeft, terwijl het qua oppervlakte twee
+      keer zo klein is. Hetzelfde geld voor Milaan en Lyon. Dit komt door de
+      grote industrie die Milaan heeft.
     </p>
 
     <div class="card margintop">
@@ -104,14 +103,14 @@
     </div>
 
     <p class="margintop">
-      In de barchart hieronder staan de gemeten NO<sub>2</sub> waardes over de COVID-19
-      periode. De balken zijn in de kleur van correspoderende stad en
-      laten de hoogste, laagste en gemiddelde NO<sub>2</sub> waarde zien. Onderin zie je
-      ook de datum staan van de hoogst en laagst gemeten waarde.
+      In de barchart hieronder staan de gemeten NO<sub>2</sub> waardes over de
+      COVID-19 periode. De balken zijn in de kleur van correspoderende stad en
+      laten de hoogste, laagste en gemiddelde NO<sub>2</sub> waarde zien. Onderin
+      zie je ook de datum staan van de hoogst en laagst gemeten waarde.
     </p>
 
     <div class="card margintop">
-      <img src="../images/no2graph.jpg" alt="">
+      <img src="../images/no2graph.jpg" alt="" />
     </div>
   </div>
 </section>

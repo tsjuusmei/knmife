@@ -14,14 +14,9 @@
     flex-direction: column;
   }
 
-  h3 {
-    font-family: "Sora";
-    text-align: center;
-    margin: 0 auto 10px auto;
-    width: auto;
-    color: var(--darkblue);
+   h3 {
+    margin: 1rem 0;
   }
-
   p {
     width: 230px;
     font-size: 16px;

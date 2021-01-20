@@ -1,3 +1,76 @@
+<style>
+  section {
+    margin-bottom: 10%;
+  }
+
+  .list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .list div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 225px;
+  }
+
+  h5 {
+    font-size: 20px;
+    color: var(--darkblue);
+  }
+
+  .map {
+    width: 100%;
+    height: 225px;
+    position: relative;
+  }
+
+  .alttext {
+    color: #666666;
+    margin-top: 2em;
+    font-style: italic;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+
+  sub {
+    font-size: var(--sub);
+  }
+
+  .year {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .milancolor {
+    color: var(--milan);
+  }
+
+  .madridcolor {
+    color: var(--madrid);
+  }
+
+  .lyoncolor {
+    color: var(--lyon);
+  }
+
+  .liverpoolcolor {
+    color: var(--liverpool);
+  }
+</style>
+
 <section>
   <div class="container">
     <h2>NO<sub>2</sub> waardes in vergelijking met vorig jaar</h2>
@@ -66,76 +139,3 @@
     </div>
   </div>
 </section>
-
-<style>
-  section {
-    margin-bottom: 10%;
-  }
-
-  .list {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0;
-  }
-
-  .list div {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 225px;
-  }
-
-  h5 {
-    font-size: 20px;
-    color: var(--darkblue);
-  }
-
-  .map {
-    width: 100%;
-    height: 225px;
-    position: relative;
-  }
-
-  .alttext {
-    color: #666666;
-    margin-top: 2em;
-    font-style: italic;
-  }
-
-  img {
-    display: block;
-    margin: 0 auto;
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-    object-fit: cover;
-  }
-
-  sub {
-    font-size: var(--sub);
-  }
-
-  .year {
-    margin: 10px auto;
-    text-align: center;
-  }
-
-  .milancolor {
-    color: var(--milan)
-  }
-
-  .madridcolor {
-    color: var(--madrid)
-  }
-
-  .lyoncolor {
-    color: var(--lyon)
-  }
-
-  .liverpoolcolor {
-    color: var(--liverpool)
-  }
-</style>
