@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "svite",
-    "build": "svite build"
+    "build": "svite build",
+    "deploy": "svite deploy"
   },
   "dependencies": {
     "d3-scale": "^3.2.3"
