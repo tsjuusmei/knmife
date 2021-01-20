@@ -14,9 +14,10 @@
     flex-direction: column;
   }
 
-   h3 {
+  h3 {
     margin: 1rem 0;
   }
+
   p {
     width: 230px;
     font-size: 16px;
