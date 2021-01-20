@@ -6,7 +6,10 @@
     "build": "svite build"
   },
   "dependencies": {
-    "d3-scale": "^3.2.3"
+    "chart.js": "^2.9.4",
+    "d3-scale": "^3.2.3",
+    "fusioncharts": "^3.16.0",
+    "svelte-fusioncharts": "^1.0.0"
   },
   "devDependencies": {
     "sass": "^1.32.4",

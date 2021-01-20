@@ -8,6 +8,7 @@
   import MugModels from './components/organisms/MugModels.svelte';
   import Conclusion from './components/organisms/Conclusion.svelte';
   import Footer from './components/organisms/Footer.svelte';
+  import Chart from './components/organisms/Chart.svelte'
 </script>
 
 <Header />
@@ -20,4 +21,5 @@
   <Conclusion />
   <MugModels />
   <Footer />
+  <Chart />
 </main>
