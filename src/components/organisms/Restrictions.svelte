@@ -7,11 +7,15 @@
 
 <style type="text/scss">
   section {
-    padding: 4rem 0;
+    position: relative;
+    z-index: 99;
+    margin-top: -6%;
+    padding: 0;
+
     &::before,
     &::after {
       content: url('../images/shape-rounded.svg');
-      margin: -4px 0;
+      margin: -5px 0;
       display: block;
 
       svg {
@@ -24,7 +28,7 @@
     }
 
     & > div {
-      padding: 2rem 0;
+      padding: 4rem 0;
       background: hsla(186, 33%, 94%, 1)
     }
   }

@@ -2,7 +2,41 @@
   import Molecules from '../molecules/Molecules.svelte';
 </script>
 
-<style>
+<style type="text/scss">
+  section {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 20rem;
+    background: url('../../../public/images/carolina-pimenta-hBsOq3RcndM-unsplash.jpg') no-repeat center;
+    background-size: cover;
+
+    & > div {
+      position: relative;
+      z-index: 99;
+
+      h2,
+      p {
+        color: #fff;
+      }
+
+      &:first-child {
+        position: absolute;
+
+      }
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      background-color: rgba( #1f3b62, .6);
+    }
+  }
+
   h2 {
     text-align: center;
   }

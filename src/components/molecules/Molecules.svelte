@@ -1,25 +1,36 @@
-<style>
-  img {
+<style type="text/scss">
+
+  .wrapper {
     position: absolute;
-    /* filter: drop-shadow(20px 8px 20px grey); */
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    z-index: 99;
+
+    & > div {
+      position: absolute;
+
+      &:nth-child(1) {
+        left: 0;
+        top: 12rem;
+      }
+
+      &:nth-child(2) {
+        right: 0;
+        bottom: 12rem;
+      }
+    }
   }
 
   .m1 {
-    width: 180px;
-    margin-left: 150px;
+    width: 140px;
   }
 
   .m2 {
-    width: 250px;
-    right: 18%;
-  }
-
-  .m3 {
-    width: 150px;
-    left: 55%;
-    margin-top: 22%;
-    opacity: .3;
-    z-index: -1000;
+    width: 120px;
   }
 
   .moving {
@@ -105,14 +116,12 @@
   }
 </style>
 
-<div class="circleMotion">
-  <img class="moving45 m1" src="../images/molecule.svg" alt="" />
-</div>
+<div class="container wrapper">
+  <div class="circleMotion1">
+    <img class="moving m1" src="../images/shape-molecule.svg" alt="" />
+  </div>
 
-<div class="circleMotion1">
-  <img class="moving m2" src="../images/molecule.svg" alt="" />
-</div>
-
-<div class="circleMotion2">
-  <img class="moving120 m3" src="../images/molecule.svg" alt="" />
+  <div class="circleMotion2">
+    <img class="moving120 m2" src="../images/shape-molecule.svg" alt="" />
+  </div>
 </div>
