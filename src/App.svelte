@@ -13,6 +13,7 @@
 
 <Header />
 <main>
+  <Chart />
   <Intro />
   <Restrictions />
   <Cities />
@@ -21,5 +22,4 @@
   <Conclusion />
   <MugModels />
   <Footer />
-  <Chart />
 </main>
