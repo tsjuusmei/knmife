@@ -55,7 +55,7 @@
 </style>
 
 <header>
-  <h1>Hoe COVID-19 de<br>lucht schoner<br>maakt</h1>
+  <h1>Hoe COVID-19 de<br>lucht schoner maakt</h1>
   <a href="#intro">
     <img src="../images/arrowdown.blue.svg" class="bounce" alt="" />
   </a>
