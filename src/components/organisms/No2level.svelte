@@ -14,7 +14,7 @@
     <p class="alttext">* De steden staan in het midden van de afbeeldingen.</p>
     <div class="list">
       <div>
-        <h5>Madrid</h5>
+        <h5 class="madridcolor">Madrid</h5>
         <div class="map">
           <img src="../images/no2maps/madrid.2019.jpg" alt="Madrid 2019" />
         </div>
@@ -25,7 +25,7 @@
         </div>
       </div>
       <div>
-        <h5>Milaan</h5>
+        <h5 class="milancolor">Milaan</h5>
         <div class="map">
           <img src="../images/no2maps/milan.2019.jpg" alt="Milaan 2019" />
         </div>
@@ -36,7 +36,7 @@
         </div>
       </div>
       <div>
-        <h5>Lyon</h5>
+        <h5 class="lyoncolor">Lyon</h5>
         <div class="map">
           <img src="../images/no2maps/lyon.2019.jpg" alt="Lyon 2019" />
         </div>
@@ -47,7 +47,7 @@
         </div>
       </div>
       <div>
-        <h5>Liverpool</h5>
+        <h5 class="liverpoolcolor">Liverpool</h5>
         <div class="map">
           <img
             src="../images/no2maps/liverpool.2019.jpg"
@@ -121,5 +121,21 @@
   .year {
     margin: 10px auto;
     text-align: center;
+  }
+
+  .milancolor {
+    color: var(--milan)
+  }
+
+  .madridcolor {
+    color: var(--madrid)
+  }
+
+  .lyoncolor {
+    color: var(--lyon)
+  }
+
+  .liverpoolcolor {
+    color: var(--liverpool)
   }
 </style>
