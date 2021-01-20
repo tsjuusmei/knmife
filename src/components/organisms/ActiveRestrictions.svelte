@@ -2,7 +2,29 @@
   import ChartExample from '../molecules/ChartExample.svelte';
 </script>
 
-<div class="roundededge">
+<style type="text/scss">
+  section {
+    &::before,
+    &::after {
+      content: url('../images/shape-rounded.svg');
+      margin: -4px 0;
+      display: block;
+    }
+
+    &::after {
+      transform: rotate(180deg);
+    }
+
+    & > div {
+      background: #ededed;
+    }
+  }
+</style>
+
+<section>
+  <div>
+    <ChartExample />
+  </div>
   <!-- <section>
     <div class="container">
       <h3>Actieve maatregelen weergegeven per week</h3>
@@ -29,17 +51,4 @@
     </div>
   </section> -->
 
-  <ChartExample />
-</div>
-
-<style>
-  /* h4 {
-    font-family: 'Sora';
-    color: var(--darkblue);
-    font-size: 1.5em;
-  }
-
-  section {
-    background-color: #ededed;
-  } */
-</style>
+</section>

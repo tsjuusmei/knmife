@@ -1,0 +1,90 @@
+:root {
+  --lyon: #00aa8d;
+  --liverpool: #625098;
+  --darkblue: #1f3b62;
+  --grey: lightgrey;
+  --madrid: #ff978d;
+  --milan: #00ccd9;
+  --cloud: #f2f2f2;
+  --cardshadow: 2px 2px 13px rgba(0, 0, 0, 0.2);
+  --sub: 0.5em;
+
+  --heading-1: 6.25rem;
+  --heading-2: 2.25rem;
+  --heading-3: 1.5rem;
+}
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+main {
+
+  & > section {
+    padding: 8rem 0;
+
+    div {
+
+      &.container {
+        max-width: 74rem;
+        margin: 0 auto;
+      }
+
+      & > p {
+        width: 55%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 2rem;
+  font-family: 'Sora';
+  color: var(--darkblue);
+  font-weight: 700;
+  text-align: center;
+}
+
+h1 {
+  font-size: var(--heading-1);
+}
+
+h2 {
+  font-size: var(--heading-2);
+}
+
+h3 {
+  font-size: var(--heading-3);
+  text-align: center;
+}
+
+p {
+  line-height: 150%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+sub {
+  line-height: 0;
+  font-size: var(--sub);
+}

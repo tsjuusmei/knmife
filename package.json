@@ -1,6 +1,9 @@
 {
-  "name": "svelte-app",
+  "name": "knmi-tropomi",
   "version": "1.0.0",
+  "description": "A project for KNMI that shows NO² emissions with the restrictions from COVID",
+  "author": "Guus Maij",
+  "license": "MIT",
   "scripts": {
     "dev": "svite",
     "build": "svite build"
@@ -15,16 +18,11 @@
     "svelte-preprocess": "^4.6.1",
     "svite": "^0.8.1"
   },
-  "description": "A project for KNMI that shows NO² emissions with the restrictions from COVID",
-  "main": "svelte.config.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tsjuusmei/knmife.git"
   },
-  "author": "Guus Maij",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tsjuusmei/knmife/issues"
-  },
-  "homepage": "https://github.com/tsjuusmei/knmife#readme"
+  }
 }

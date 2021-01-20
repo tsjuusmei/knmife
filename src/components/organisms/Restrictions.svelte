@@ -5,35 +5,51 @@
   import Closepub from '../molecules/Closepub.svelte';
 </script>
 
-<style>
+<style type="text/scss">
   section {
-    height:fit-content;
-    background-color: #EDEDED;
-    /* background: url('../images/rounded.bg.gray.svg') no-repeat;
-    background-size: cover;
-    background-position: center; */
-    padding: 3px 0;
+    padding: 4rem 0;
+    &::before,
+    &::after {
+      content: url('../images/shape-rounded.svg');
+      margin: -4px 0;
+      display: block;
+    }
+
+    &::after {
+      transform: rotate(180deg);
+    }
+
+    & > div {
+      padding: 2rem 0;
+      background: #ededed
+    }
   }
 
   ul {
-    list-style-type: none;
     display: flex;
-    margin: 110px;
     justify-content: space-between;
-    padding: 0;
+    list-style: none;
+  }
+
+  p {
+    margin-bottom: 2rem;
   }
 </style>
 
-<div class="roundededge">
-  <section>
+<section>
+  <div>
     <div class="container">
-      <h3>Welke maatregelen hebben invloed op NO<sub>2</sub></h3>
+      <h2>Welke maatregelen hebben invloed op NO<sub>2</sub></h2>
 
       <p>
-        De onderstaande maatregelen zullen een grote invloed kunnen hebben op NO<sub>2</sub> uitstoot. Door de maatregelen wordt er namelijk veel verkeer op stop gezet, wat de uitstoot erg verminderd aangezien vervoer de grootste uitstoter is van NO<sub>2</sub>.
-        
-        Deze maatregelen zijn aan de hand van satellietdata via de google earth
-        engine uitgekozen en vergeleken met peroides waarin de maatregelen niet actief waren.
+        De onderstaande maatregelen zullen een grote invloed kunnen hebben op NO<sub
+          >2</sub
+        >
+        uitstoot. Door de maatregelen wordt er namelijk veel verkeer op stop
+        gezet, wat de uitstoot erg verminderd aangezien vervoer de grootste
+        uitstoter is van NO<sub>2</sub>. Deze maatregelen zijn aan de hand van
+        satellietdata via de google earth engine uitgekozen en vergeleken met
+        peroides waarin de maatregelen niet actief waren.
       </p>
 
       <ul>
@@ -51,5 +67,5 @@
         </li>
       </ul>
     </div>
-  </section>
-</div>
+  </div>
+</section>

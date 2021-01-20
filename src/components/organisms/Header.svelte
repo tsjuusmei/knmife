@@ -7,26 +7,16 @@
     margin: 0;
     padding: 0;
   }
-
-  h1 {
-    font-family: 'Sora';
-    font-size: 100px;
-    font-weight: 700;
-    margin: auto;
-    z-index: 1000;
-    color: var(--darkblue);
-  }
-
   header {
-    max-width: none;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background: url('../images/bg.white.svg') repeat-x bottom;
     background-size: 70%;
     background-color: var(--grey);
-    text-align: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: -1%;
   }
 
   img {
@@ -36,6 +26,11 @@
     margin: 0 auto;
     animation: pulse 2s 3s ease-out infinite;
     z-index: 1000;
+  }
+
+  a {
+    position: absolute;
+    bottom: 0;
   }
 
   @keyframes pulse {
@@ -55,7 +50,7 @@
 </style>
 
 <header>
-  <h1>Hoe COVID-19 de<br>lucht schoner maakt</h1>
+  <h1>Hoe COVID-19 de<br />lucht schoner maakt</h1>
   <a href="#intro">
     <img src="../images/arrowdown.blue.svg" class="bounce" alt="" />
   </a>

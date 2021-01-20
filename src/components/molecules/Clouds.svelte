@@ -33,12 +33,13 @@
 
     position: absolute;
     bottom: 200px;
+    width: 100%;
     & > span {
       width: 200px;
       height: 60px;
       left: 0;
       bottom: 220px;
-      z-index: 1200;
+      z-index: 999;
       background: var(--cloud);
       border-radius: 200px;
       position: absolute;
