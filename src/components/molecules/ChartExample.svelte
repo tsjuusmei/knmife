@@ -65,8 +65,7 @@
 
 <style>
   .chart,
-  h2,
-  p {
+  h2 {
     width: 100%;
     max-width: 500px;
     margin-left: auto;

@@ -6,7 +6,7 @@
   section {
     &::before,
     &::after {
-      content: url('../images/shape-rounded.svg');
+      content: url('../../../images/shape-rounded.svg');
       margin: -4px 0;
       display: block;
     }
