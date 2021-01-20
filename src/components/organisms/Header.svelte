@@ -10,7 +10,7 @@
     position: relative;
     height: 100vh;
     text-align: center;
-    background: url('../images/bg.white.svg') repeat-x bottom;
+    background: url('../../../images/bg.white.svg') repeat-x bottom;
     background-size: 70%;
 
     &::after {
