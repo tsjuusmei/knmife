@@ -7,6 +7,7 @@
   import MilanSurface from '../molecules/MilanSurface.svelte';
   import LyonSurface from '../molecules/LyonSurface.svelte';
   import LiverpoolSurface from '../molecules/LiverpoolSurface.svelte';
+  import Barchart from '../molecules/Barchart.svelte';
 </script>
 
 <style>
@@ -32,11 +33,6 @@
 
   .card > ul {
     margin: 0;
-  }
-
-  .card > img {
-    display:flex;
-    margin: auto;
   }
 
   .aligncenter {
@@ -110,8 +106,6 @@
       ook de datum staan van de hoogst en laagst gemeten waarde.
     </p>
 
-    <div class="card margintop">
-      <img src="../images/no2graph.jpg" alt="">
-    </div>
+    <Barchart />
   </div>
 </section>

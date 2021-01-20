@@ -11,5 +11,5 @@
   }
 </style>
 
-<h5>Milan <br /> 181,3 KM²</h5>
+<h5>Milaan <br /> 181,3 KM²</h5>
 <img src="./images/milansurface.svg" alt="" />
