@@ -12,7 +12,7 @@
     "d3-scale": "^3.2.3"
   },
   "devDependencies": {
-    "sass": "^1.32.4",
+    "sass": "^1.32.5",
     "svelte": "^3.0.0",
     "svelte-hmr": "^0.12.3",
     "svelte-preprocess": "^4.6.1",
