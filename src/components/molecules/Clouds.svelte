@@ -11,7 +11,6 @@
   <span />
   <span />
   <span />
-  <span />
 </div>
 
 <style type="text/scss">
@@ -29,18 +28,18 @@
     --cloud-10: calc(var(--cloud-base-duration) * 0.55);
     --cloud-11: calc(var(--cloud-base-duration) * 0.5);
     --cloud-12: calc(var(--cloud-base-duration) * 0.45);
-    --cloud-13: calc(var(--cloud-base-duration) * 0.4);
 
     position: absolute;
     bottom: 200px;
     width: 100%;
+
     & > span {
       width: 200px;
       height: 60px;
       left: 0;
       bottom: 220px;
       z-index: 999;
-      background: var(--cloud);
+      background: #fff;
       border-radius: 200px;
       position: absolute;
 
@@ -48,14 +47,16 @@
       &::after {
         content: '';
         position: absolute;
-        background: var(--cloud);
-        width: 100px;
-        height: 80px;
-        position: absolute;
-        top: -15px;
-        left: 10px;
+        background: #fff;
         border-radius: 100px;
         transform: rotate(30deg);
+      }
+
+      &::before {
+        width: 100px;
+        height: 80px;
+        top: -15px;
+        left: 10px;
       }
 
       &::after {
@@ -146,13 +147,6 @@
         transform: scale(1.6);
         opacity: 0.75;
         animation: moveclouds var(--cloud-12) linear infinite;
-      }
-
-      &:nth-child(13) {
-        bottom: 20px;
-        transform: scale(1.2);
-        opacity: 0.6;
-        animation: moveclouds var(--cloud-13) linear infinite;
       }
     }
   }

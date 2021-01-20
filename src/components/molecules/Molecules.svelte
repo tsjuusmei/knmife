@@ -1,7 +1,7 @@
 <style>
   img {
     position: absolute;
-    filter: drop-shadow(20px 8px 20px grey);
+    /* filter: drop-shadow(20px 8px 20px grey); */
   }
 
   .m1 {

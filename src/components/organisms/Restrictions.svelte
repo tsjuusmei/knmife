@@ -13,6 +13,10 @@
       content: url('../images/shape-rounded.svg');
       margin: -4px 0;
       display: block;
+
+      svg {
+        fill: hsla(186, 33%, 94%, 1)
+      }
     }
 
     &::after {
@@ -21,7 +25,7 @@
 
     & > div {
       padding: 2rem 0;
-      background: #ededed
+      background: hsla(186, 33%, 94%, 1)
     }
   }
 

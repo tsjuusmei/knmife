@@ -4,11 +4,11 @@
 
 <style type="text/scss">
   header {
-    position: relative;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    height: 100vh;
     text-align: center;
     background: url('../images/bg.white.svg') repeat-x bottom;
     background-size: 70%;
@@ -23,6 +23,17 @@
       z-index: -999;
       background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);;
     }
+  }
+
+  h1 {
+    max-width: 80vw;
+  }
+
+  span {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-radius: 100px;
   }
 
   img {
@@ -51,7 +62,10 @@
 </style>
 
 <header>
-  <h1>Hoe COVID-19 de<br />lucht schoner maakt</h1>
+  <section>
+    <h1>De impact van COVID-19 op de luchtkwaliteit</h1>
+    <span>In opdracht van KNMI &amp; Hogeschool van Amsterdam</span>
+  </section>
   <img src="../images/arrowdown.blue.svg" class="bounce" alt="" />
   <Clouds />
 </header>
