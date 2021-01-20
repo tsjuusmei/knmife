@@ -1,6 +1,6 @@
 <section>
   <div class="container">
-    <h3>NO<sub>2</sub> waardes in vergelijking met vorig jaar</h3>
+    <h2>NO<sub>2</sub> waardes in vergelijking met vorig jaar</h2>
     <p>
       Als we de uitstoot waardes van 2020 en 2019 vergelijken zijn er erg grote
       verschillen te zien. Deze afbeeldingen zijn afkomstig uit de Tropomi

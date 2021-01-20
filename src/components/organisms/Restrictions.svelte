@@ -27,11 +27,11 @@
 <div class="roundededge">
   <section>
     <div class="container">
-      <h3>Welke maatregelen hebben invloed op NO<sub>2</sub></h3>
+      <h2>Welke maatregelen hebben invloed op NO<sub>2</sub></h2>
 
       <p>
         De onderstaande maatregelen zullen een grote invloed kunnen hebben op NO<sub>2</sub> uitstoot. Door de maatregelen wordt er namelijk veel verkeer op stop gezet, wat de uitstoot erg verminderd aangezien vervoer de grootste uitstoter is van NO<sub>2</sub>.
-        
+
         Deze maatregelen zijn aan de hand van satellietdata via de google earth
         engine uitgekozen en vergeleken met peroides waarin de maatregelen niet actief waren.
       </p>

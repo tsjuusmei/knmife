@@ -10,11 +10,8 @@
   }
 
   h2 {
-    font-family: 'Sora';
-    font-size: 72px;
     text-align: center;
     margin: 5% auto;
-    color: var(--darkblue);
   }
 
   sub {

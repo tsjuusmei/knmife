@@ -1,5 +1,6 @@
 <script>
   import Header from './components/organisms/Header.svelte';
+  import Case from './components/organisms/Case.svelte';
   import Intro from './components/organisms/Intro.svelte';
   import Restrictions from './components/organisms/Restrictions.svelte';
   import Cities from './components/organisms/Cities.svelte';
@@ -12,6 +13,7 @@
 
 <Header />
 <main>
+  <Case />
   <Intro />
   <Restrictions />
   <Cities />
