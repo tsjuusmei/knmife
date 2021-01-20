@@ -17,7 +17,7 @@
 
   div.card {
     border-radius: 20px;
-    box-shadow: var(--cardshadow);
+    /* box-shadow: var(--cardshadow); */
     width: auto;
     height: auto;
     padding: 2em 0;

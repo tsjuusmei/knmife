@@ -38,7 +38,7 @@
     background-color: var(--milan);
     border-radius: 20px;
     text-align: center;
-    box-shadow: var(--cardshadow)
+    /* box-shadow: var(--cardshadow) */
   }
 
   img {
