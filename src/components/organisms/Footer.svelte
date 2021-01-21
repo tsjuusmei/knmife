@@ -2,7 +2,6 @@
   footer {
     background-color: var(--darkblue);
     color: white;
-    padding: 60px;
   }
 
   h3 {
@@ -25,14 +24,12 @@
   h4 {
     font-size: 1.2em;
     text-align: center;
-    margin: 10px;
-    margin-top: 40px;
     color: #fff;
   }
 </style>
 
 
-<footer>
+<footer class="padding-44">
   <h3 class="ta-center">Gebruikte bronnen</h3>
   <div>
     <a
@@ -59,7 +56,7 @@
       target="_blank">Data over COVID-19 maatregelen per land</a
     >
   </div>
-  <h4>Gemaakt door:</h4>
+  <h4 class="padding-20">Gemaakt door:</h4>
   <div>
     <a href="https://www.linkedin.com/in/vermeulenjesse/" target="_blank"
       >Jesse Vermeulen</a

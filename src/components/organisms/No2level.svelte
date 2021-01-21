@@ -85,9 +85,12 @@
     font-size: var(--sub);
   }
 
-  .year,
-  .alttext {
+  .year {
     font-size: 16px;
+    text-align: center;
+  }
+
+  .alttext {
     text-align: center;
   }
 

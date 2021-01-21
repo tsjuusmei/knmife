@@ -39,7 +39,7 @@
 <section>
   <div>
     <div class="container">
-      <h2 class="ta-center">Welke maatregelen hebben invloed op NO<sub>2</sub></h2>
+      <h2 class="ta-center">Welke maatregelen invloed hebben op NO<sub>2</sub></h2>
 
       <p class="padding-24">
         De onderstaande maatregelen zullen een grote invloed kunnen hebben op NO<sub

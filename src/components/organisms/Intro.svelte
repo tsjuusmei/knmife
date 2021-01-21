@@ -7,7 +7,7 @@
     position: relative;
     overflow: hidden;
     padding-bottom: 18rem;
-    background: url('../../../public/images/carolina-pimenta-hBsOq3RcndM-unsplash.jpg') no-repeat center;
+    background: url('../../../public/images/juniperphoton-KKFKrOu3BVc-unsplash.jpg') no-repeat center;
     background-size: cover;
 
     & > div {

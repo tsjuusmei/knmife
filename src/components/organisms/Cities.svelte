@@ -30,7 +30,7 @@
 
 <section>
   <div class="container">
-    <h2 class="ta-center">Steden met grote verschillen in uitstoot</h2>
+    <h2 class="ta-center">Steden met grote verschillen in de mate van uitstoot</h2>
 
     <p class="padding-24">
       De volgende steden hebben allemaal te maken gehad met de hierboven
