@@ -101,7 +101,7 @@
 
   .chart-container {
     display: flex;
-    margin: 0 -20rem;
+    margin: 0 -2rem;
     justify-content: space-evenly;
 
     & > div {
@@ -115,7 +115,7 @@
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   button::before {
@@ -158,7 +158,7 @@
   }
 
   button {
-    font-size: 1.2em;
+    font-size: 16px;
     background: transparent;
     box-shadow: 0px 0px 0px transparent;
     border: 2px solid transparent;
