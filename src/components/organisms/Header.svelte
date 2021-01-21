@@ -36,10 +36,13 @@
     border-radius: 100px;
   }
 
-  img {
+  a {
     position: absolute;
-    width: 80px;
     bottom: 4vh;
+  }
+
+  img {
+    width: 80px;
     margin: 0 auto;
     animation: pulse 2s 3s ease-out infinite;
     z-index: 1000;
@@ -66,6 +69,8 @@
     <h1>De impact van COVID-19 op de luchtkwaliteit</h1>
     <span>In opdracht van Hogeschool van Amsterdam &amp; KNMI</span>
   </section>
-  <img src="../images/arrowdown.blue.svg" class="bounce" alt="" />
+  <a href="#next">
+    <img src="../images/arrowdown.blue.svg" class="bounce" alt="" />
+  </a>
   <Clouds />
 </header>

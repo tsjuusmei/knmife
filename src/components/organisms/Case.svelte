@@ -20,7 +20,7 @@
   }
 </style>
 
-<section>
+<section id="next">
   <div>
     <h2>Over het <span>onderzoek</span></h2>
 
