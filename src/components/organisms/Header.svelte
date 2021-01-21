@@ -64,7 +64,7 @@
 <header>
   <section>
     <h1>De impact van COVID-19 op de luchtkwaliteit</h1>
-    <span>In opdracht van KNMI &amp; Hogeschool van Amsterdam</span>
+    <span>In opdracht van Hogeschool van Amsterdam &amp; KNMI</span>
   </section>
   <img src="../images/arrowdown.blue.svg" class="bounce" alt="" />
   <Clouds />

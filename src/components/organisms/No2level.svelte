@@ -1,4 +1,4 @@
-<style>
+<style type="text/scss">
   section {
     margin-bottom: 10%;
   }
@@ -8,31 +8,68 @@
     display: flex;
     justify-content: space-evenly;
     padding: 0;
+
+    & > div {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      width: 225px;
+
+      .map:nth-of-type(2) {
+        padding-top: 2rem;
+      }
+    }
   }
 
-  .list div {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 225px;
-  }
+  h4 {
+    font-size: var(--heading-3);
 
-  h5 {
-    font-size: 20px;
-    color: var(--darkblue);
+    &.city {
+      display: flex;
+      align-items: center;
+      position: relative;
+      left: 15px;
+
+      &::before {
+        content: "";
+        left: -10px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        transform: translateX(-100%);
+      }
+
+      &-madrid::before {
+        background: var(--madrid);
+      }
+
+      &-milan::before {
+        background: var(--milan);
+      }
+
+      &-lyon::before {
+        background: var(--lyon);
+      }
+
+      &-liverpool::before {
+        background: var(--liverpool);
+      }
+    }
   }
 
   .map {
     width: 100%;
     height: 225px;
     position: relative;
-  }
+    padding-bottom: 1rem;
 
-  .alttext {
-    color: #666666;
-    font-style: italic;
+    &:last-child {
+      padding-top: 2rem;
+    }
   }
 
   img {
@@ -48,26 +85,12 @@
     font-size: var(--sub);
   }
 
-  .year {
-    margin: 10px auto;
+  .year,
+  .alttext {
+    font-size: 16px;
     text-align: center;
   }
 
-  .milancolor {
-    color: var(--milan);
-  }
-
-  .madridcolor {
-    color: var(--madrid);
-  }
-
-  .lyoncolor {
-    color: var(--lyon);
-  }
-
-  .liverpoolcolor {
-    color: var(--liverpool);
-  }
 </style>
 
 <section class="padding-06">
@@ -83,10 +106,9 @@
       betrekking op vervoer hebben dus grote invloed gehad op de uitstoot.
     </p>
 
-    <p class="alttext">* De steden staan in het midden van de afbeeldingen.</p>
     <div class="list">
       <div>
-        <h5 class="madridcolor">Madrid</h5>
+        <h4 class="city city-madrid">Madrid</h4>
         <div class="map">
           <img src="../images/no2maps/madrid.2019.jpg" alt="Madrid 2019" />
         </div>
@@ -97,7 +119,7 @@
         <p class="year">2020</p>
       </div>
       <div>
-        <h5 class="milancolor">Milaan</h5>
+        <h4 class="city city-milan">Milaan</h4>
         <div class="map">
           <img src="../images/no2maps/milan.2019.jpg" alt="Milaan 2019" />
         </div>
@@ -108,7 +130,7 @@
         <p class="year">2020</p>
       </div>
       <div>
-        <h5 class="lyoncolor">Lyon</h5>
+        <h4 class="city city-lyon">Lyon</h4>
         <div class="map">
           <img src="../images/no2maps/lyon.2019.jpg" alt="Lyon 2019" />
         </div>
@@ -119,7 +141,7 @@
         <p class="year">2020</p>
       </div>
       <div>
-        <h5 class="liverpoolcolor">Liverpool</h5>
+        <h4 class="city city-liverpool">Liverpool</h4>
         <div class="map">
           <img
             src="../images/no2maps/liverpool.2019.jpg"
@@ -136,5 +158,7 @@
         <p class="year">2020</p>
       </div>
     </div>
+
+    <p class="alttext padding-20">De steden staan in het midden van de afbeeldingen.</p>
   </div>
 </section>

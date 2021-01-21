@@ -27,12 +27,13 @@
     text-align: center;
     margin: 10px;
     margin-top: 40px;
+    color: #fff;
   }
 </style>
 
 
 <footer>
-  <h3>Gebruikte bronnen</h3>
+  <h3 class="ta-center">Gebruikte bronnen</h3>
   <div>
     <a
       href="https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.json"
