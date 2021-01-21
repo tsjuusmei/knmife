@@ -1,7 +1,9 @@
 
 ![Header](https://i.imgur.com/dV8Zesp.jpeg)
 
-# KNMI
+# KNMIFE
+
+*A project by [Sam Lansdaal](https://samlansdaal.myportfolio.com/), [Rick Groot](https://github.com/Rickert41), [Jesse Vermeulen](https://github.com/jessevermeulen) & [Guus Maij](https://github.com/tsjuusmei)*
 
 ## Description
 
@@ -27,3 +29,13 @@ yarn # or npm install
 ```
 yarn dev # or npm run dev
 ```
+
+## Deployment
+
+The project can be seen in the link below:
+
+https://knmife.netlify.app/
+
+## License
+
+This repository is licensed as MIT
