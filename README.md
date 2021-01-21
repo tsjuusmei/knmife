@@ -38,4 +38,4 @@ https://knmife.netlify.app/
 
 ## License
 
-This repository is licensed as MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
