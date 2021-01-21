@@ -1,18 +1,64 @@
 <script>
-  let city = "madrid";
+  let city = 'madrid';
   function madrid() {
-		city= "madrid"
+    city = 'madrid';
   }
   function milan() {
-		city= "milan"
+    city = 'milan';
   }
   function lyon() {
-		city= "lyon"
+    city = 'lyon';
   }
   function liverpool() {
-		city= "liverpool"
-	}
+    city = 'liverpool';
+  }
+  let city2 = 'madrid';
+  function madrid2() {
+    city2 = 'madrid';
+  }
+  function milan2() {
+    city2 = 'milan';
+  }
+  function lyon2() {
+    city2 = 'lyon';
+  }
+  function liverpool2() {
+    city2 = 'liverpool';
+  }
 </script>
+
+<section>
+  <div class="area">
+    <div class="container">
+      <div class="buttons">
+        <button on:click={madrid}>Madrid</button>
+        <button on:click={milan}>Milaan</button>
+        <button on:click={lyon}>Lyon</button>
+        <button on:click={liverpool}>Liverpool</button>
+      </div>
+      <div class="group">
+        <img
+          src="/images/charts/{city}chart.png"
+          alt="NO2 data van deze stad"
+        />
+      </div>
+    </div>
+    <div class="container">
+      <div class="buttons">
+        <button on:click={madrid2}>Madrid</button>
+        <button on:click={milan2}>Milaan</button>
+        <button on:click={lyon2}>Lyon</button>
+        <button on:click={liverpool2}>Liverpool</button>
+      </div>
+      <div class="group">
+        <img
+          src="/images/charts/{city2}chart.png"
+          alt="NO2 data van deze stad"
+        />
+      </div>
+    </div>
+  </div>
+</section>
 
 <style type="text/scss">
   section {
@@ -32,10 +78,16 @@
       transform: rotate(180deg);
     }
 
-    & > div {
+    & > div.area {
       padding: 4rem 0;
-      background: hsla(186, 33%, 94%, 1)
+      background: hsla(186, 33%, 94%, 1);
+      display:flex;
+      justify-content: space-evenly;
     }
+  }
+
+  div.container {
+    width: 40%
   }
 
   .buttons {
@@ -57,10 +109,18 @@
     vertical-align: middle;
   }
 
-  button:nth-child(1) { grid-area: 1 / 1 / 2 / 2; }
-  button:nth-child(2) { grid-area: 1 / 2 / 2 / 3; }
-  button:nth-child(3) { grid-area: 1 / 3 / 2 / 4; }
-  button:nth-child(4) { grid-area: 1 / 4 / 2 / 5; }
+  button:nth-child(1) {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  button:nth-child(2) {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  button:nth-child(3) {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+  button:nth-child(4) {
+    grid-area: 1 / 4 / 2 / 5;
+  }
 
   button:nth-child(1)::before {
     background: var(--madrid);
@@ -92,8 +152,6 @@
   }
 
   .group {
-    // display: block;
-    // position: relative;
     width: 100%;
     margin: 0 auto;
   }
@@ -103,29 +161,3 @@
     width: 100%;
   }
 </style>
-
-<section>
-  <div class="container">
-    <div class="buttons">
-      <button on:click={madrid}>Madrid</button>
-      <button on:click={milan}>Milaan</button>
-      <button on:click={lyon}>Lyon</button>
-      <button on:click={liverpool}>Liverpool</button>
-    </div>
-   <div class="group">
-      <img src="/images/charts/{city}chart.svg" alt="NO2 data van deze stad">
-    </div>
-  </div>
-
-  <!-- <section>
-      <h3>Actieve maatregelen weergegeven per week</h3>
-
-      <p>
-        De maatregelen hieronder hebben het meeste invloed op de uitstoot van NO2.
-        Door deze maatregelen is er minder verkeer op de wegen, en dus ook minder
-        uitstoot. De uitstoot tijdens deze maatregelen is ook duidelijk een stuk
-        minder, zoals hieronder staat aangetoont in een paar kleine
-        vergelijkingen.
-      </p> -->
-
-</section>
