@@ -3,8 +3,8 @@
   function madrid() {
 		city= "madrid"
   }
-  function milaan() {
-		city= "milaan"
+  function milan() {
+		city= "milan"
   }
   function lyon() {
 		city= "lyon"
@@ -16,6 +16,11 @@
 
 <style type="text/scss">
   section {
+    position: relative;
+    z-index: 99;
+    margin-top: -6%;
+    padding: 0;
+
     &::before,
     &::after {
       content: url('../../../images/shape-rounded.svg');
@@ -28,7 +33,8 @@
     }
 
     & > div {
-      background: #ededed;
+      padding: 4rem 0;
+      background: hsla(186, 33%, 94%, 1)
     }
   }
 
@@ -38,6 +44,7 @@
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    margin-bottom: 4rem;
   }
 
   button::before {
@@ -85,8 +92,8 @@
   }
 
   .group {
-    display: block;
-    position: relative;
+    // display: block;
+    // position: relative;
     width: 100%;
     margin: 0 auto;
   }
@@ -94,9 +101,6 @@
   .group img {
     position: relative;
     width: 100%;
-    // left: 0;
-    // top: 0;
-    // right: 0;
   }
 </style>
 
@@ -104,7 +108,7 @@
   <div class="container">
     <div class="buttons">
       <button on:click={madrid}>Madrid</button>
-      <button on:click={milaan}>Milaan</button>
+      <button on:click={milan}>Milaan</button>
       <button on:click={lyon}>Lyon</button>
       <button on:click={liverpool}>Liverpool</button>
     </div>
