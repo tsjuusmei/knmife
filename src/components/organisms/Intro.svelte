@@ -6,7 +6,7 @@
   section {
     position: relative;
     overflow: hidden;
-    padding-bottom: 20rem;
+    padding-bottom: 18rem;
     background: url('../../../public/images/carolina-pimenta-hBsOq3RcndM-unsplash.jpg') no-repeat center;
     background-size: cover;
 
@@ -47,13 +47,10 @@
   <Molecules />
 
   <div class="container">
-    <h2>Wat is NO<sub>2</sub>?</h2>
+    <h2 class="ta-center padding-02">Wat is NO<sub>2</sub>?</h2>
 
-    <p>
-      De uitstoot van NO<sub>2</sub>
-      is de afgelopen jaren veel te hoog. Door COVID-19 zijn er verschillende maatregelen
-      van pas gekomen, waardoor het vervoer en producties verminderden. De invloed
-      van deze maatregelen staan in dit artikel verwerkt. Stikstofdioxide (NO<sub
+    <p class="padding-20">
+      Stikstofdioxide (NO<sub
         >2</sub
       >) is een gas dat in Nederland voor een groot gedeelte door het
       autoverkeer wordt geproduceerd. Het is daarom een belangrijke indicator

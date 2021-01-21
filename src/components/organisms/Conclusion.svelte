@@ -1,6 +1,6 @@
 <section>
   <div class="container">
-    <h2>Conclusie</h2>
+    <h2 class="ta-center">Conclusie</h2>
     <p>
       Door de maatregelen van COVID-19 is de uitstoot van NO<sub>2</sub> best wat
       omlaag gegaan. Dit komt voornamelijk door de reductie van vervoer, wat zorgt

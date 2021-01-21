@@ -32,7 +32,6 @@
 
   .alttext {
     color: #666666;
-    margin-top: 2em;
     font-style: italic;
   }
 
@@ -71,10 +70,10 @@
   }
 </style>
 
-<section>
+<section class="padding-06">
   <div class="container">
-    <h2>NO<sub>2</sub> waardes in vergelijking met vorig jaar</h2>
-    <p>
+    <h2 class="ta-center">NO<sub>2</sub> waardes in vergelijking met vorig jaar</h2>
+    <p class="padding-24">
       Als we de uitstoot waardes van 2020 en 2019 vergelijken zijn er erg grote
       verschillen te zien. Deze afbeeldingen zijn afkomstig uit de Tropomi
       sateliet, en geven visueel de NO<sub>2</sub> uitstoot over een bepaalde
@@ -92,10 +91,10 @@
           <img src="../images/no2maps/madrid.2019.jpg" alt="Madrid 2019" />
         </div>
         <p class="year">2019</p>
-        <p class="year">2020</p>
         <div class="map">
           <img src="../images/no2maps/madrid.2020.jpg" alt="Madrid 2020" />
         </div>
+        <p class="year">2020</p>
       </div>
       <div>
         <h5 class="milancolor">Milaan</h5>
@@ -103,10 +102,10 @@
           <img src="../images/no2maps/milan.2019.jpg" alt="Milaan 2019" />
         </div>
         <p class="year">2019</p>
-        <p class="year">2020</p>
         <div class="map">
           <img src="../images/no2maps/milan.2020.jpg" alt="Milaan 2020" />
         </div>
+        <p class="year">2020</p>
       </div>
       <div>
         <h5 class="lyoncolor">Lyon</h5>
@@ -114,10 +113,10 @@
           <img src="../images/no2maps/lyon.2019.jpg" alt="Lyon 2019" />
         </div>
         <p class="year">2019</p>
-        <p class="year">2020</p>
         <div class="map">
           <img src="../images/no2maps/lyon.2020.jpg" alt="Lyon 2020" />
         </div>
+        <p class="year">2020</p>
       </div>
       <div>
         <h5 class="liverpoolcolor">Liverpool</h5>
@@ -128,13 +127,13 @@
           />
         </div>
         <p class="year">2019</p>
-        <p class="year">2020</p>
         <div class="map">
           <img
-            src="../images/no2maps/liverpool.2020.jpg"
-            alt="Liverpool 2020"
+          src="../images/no2maps/liverpool.2020.jpg"
+          alt="Liverpool 2020"
           />
         </div>
+        <p class="year">2020</p>
       </div>
     </div>
   </div>

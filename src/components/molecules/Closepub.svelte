@@ -1,32 +1,33 @@
 <style>
   img {
-    width: 160px;
+    width: 120px;
     margin: auto;
   }
 
   div {
-    background-color: white;
-    width: 225px;
-    height: 225px;
-    border-radius: 20px;
-    align-content: center;
     display: flex;
     flex-direction: column;
-  }
-
-  h3 {
-    margin: 1rem 0;
+    align-content: center;
+    width: 225px;
+    height: 225px;
+    border: 2px solid var(--darkblue);
+    border-radius: 20px;
   }
 
   p {
     width: 230px;
     font-size: 16px;
   }
+
+  h3 {
+    padding: 1rem 0;
+  }
+
 </style>
 
-<div><img src="./images/closepub.svg" alt="" /></div>
+<div><img src="./images/shape-closepub.svg" alt="" /></div>
 
-<h3>Closepub</h3>
+<h3 class="ta-center">Closepub</h3>
 
 <p>
   Publieke plaatsen moeten sluiten. Op deze manier is er geen spreiding in
