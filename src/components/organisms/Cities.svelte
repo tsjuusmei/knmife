@@ -83,7 +83,7 @@
 
     <p class="padding-44">
       In de barchart hieronder staan de gemeten NO<sub>2</sub> waardes over de
-      COVID-19 periode. De balken zijn in de kleur van correspoderende stad en
+      COVID-19 periode. De balken zijn in de kleur van corresponderende stad en
       laten de hoogste, laagste en gemiddelde NO<sub>2</sub> waarde zien. Onderin
       zie je ook de datum staan van de hoogst en laagst gemeten waarde.
     </p>

@@ -49,7 +49,7 @@
         gezet, wat de uitstoot erg verminderd aangezien vervoer de grootste
         uitstoter is van NO<sub>2</sub>. Deze maatregelen zijn aan de hand van
         satellietdata via de google earth engine uitgekozen en vergeleken met
-        peroides waarin de maatregelen niet actief waren.
+        periodes waarin de maatregelen niet actief waren.
       </p>
 
       <ul>

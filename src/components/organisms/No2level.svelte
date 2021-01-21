@@ -100,7 +100,7 @@
       Als we de uitstoot waardes van 2020 en 2019 vergelijken zijn er erg grote
       verschillen te zien. Deze afbeeldingen zijn afkomstig uit de Tropomi
       sateliet, en geven visueel de NO<sub>2</sub> uitstoot over een bepaalde
-      periode zien. De data is verzameld over de periode met de meeste NO<sub
+      periode  weer. De data is verzameld over de periode met de meeste NO<sub
         >2</sub
       > reductie, en vergeleken met dezelfde periode in 2019. De maatregelen met
       betrekking op vervoer hebben dus grote invloed gehad op de uitstoot.

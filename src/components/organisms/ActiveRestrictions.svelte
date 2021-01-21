@@ -28,33 +28,49 @@
 </script>
 
 <section>
-  <div class="area">
+  <div>
     <div class="container">
-      <div class="buttons">
-        <button on:click={madrid}>Madrid</button>
-        <button on:click={milan}>Milaan</button>
-        <button on:click={lyon}>Lyon</button>
-        <button on:click={liverpool}>Liverpool</button>
-      </div>
-      <div class="group">
-        <img
-          src="/images/charts/{city}chart.png"
-          alt="NO2 data van deze stad"
-        />
-      </div>
-    </div>
-    <div class="container">
-      <div class="buttons">
-        <button on:click={madrid2}>Madrid</button>
-        <button on:click={milan2}>Milaan</button>
-        <button on:click={lyon2}>Lyon</button>
-        <button on:click={liverpool2}>Liverpool</button>
-      </div>
-      <div class="group">
-        <img
-          src="/images/charts/{city2}chart.png"
-          alt="NO2 data van deze stad"
-        />
+      <h2 class="ta-center">
+        Vergelijking NO<sub>2</sub> uitstoot tussen steden
+      </h2>
+
+      <p class="padding-24">
+        Hier onder kan je gemakkelijk de uitstoot tussen twee steden
+        vergelijken. De stad kan je boven de grafiek selecteren. In de grafiek
+        staan ook balken, die aangeven wanneer welke maatregel actief is. De
+        legenda hiervan staat onder de grafiek. De maatregel is te herkennen aan
+        het patroon in de balk.
+      </p>
+
+      <div class="chart-container">
+        <div>
+          <div class="buttons">
+            <button on:click={madrid}>Madrid</button>
+            <button on:click={milan}>Milaan</button>
+            <button on:click={lyon}>Lyon</button>
+            <button on:click={liverpool}>Liverpool</button>
+          </div>
+          <div class="group">
+            <img
+              src="/images/charts/{city}chart.png"
+              alt="NO2 data van deze stad"
+            />
+          </div>
+        </div>
+        <div>
+          <div class="buttons">
+            <button on:click={madrid2}>Madrid</button>
+            <button on:click={milan2}>Milaan</button>
+            <button on:click={lyon2}>Lyon</button>
+            <button on:click={liverpool2}>Liverpool</button>
+          </div>
+          <div class="group">
+            <img
+              src="/images/charts/{city2}chart.png"
+              alt="NO2 data van deze stad"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -80,18 +96,17 @@
     & > div {
       padding: 4rem 0;
       background: hsla(186, 33%, 94%, 1);
-
-      &.area {
-        padding: 4rem 0;
-        background: hsla(186, 33%, 94%, 1);
-        display:flex;
-        justify-content: space-evenly;
-      }
     }
   }
 
-  div.container {
-    width: 40%
+  .chart-container {
+    display: flex;
+    margin: 0 -20rem;
+    justify-content: space-evenly;
+
+    & > div {
+      width: 50rem;
+    }
   }
 
   .buttons {
