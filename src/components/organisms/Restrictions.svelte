@@ -14,7 +14,7 @@
 
     &::before,
     &::after {
-      content: url('../images/shape-rounded.svg');
+      content: url('/assets/images/shape-rounded.svg');
       margin: -5px 0;
       display: block;
 
