@@ -12,32 +12,10 @@
 
 <style>
   ul {
-    list-style-type: none;
     display: flex;
-    margin: 110px 0;
     justify-content: space-evenly;
     padding: 0;
-  }
-
-  .margintop {
-    margin-top: 4em;
-  }
-
-  div.card {
-    border-radius: 20px;
-    /* box-shadow: var(--cardshadow); */
-    width: auto;
-    height: auto;
-    padding: 2em 0;
-  }
-
-  .card > ul {
-    margin: 0;
-  }
-
-  .card > img {
-    display: flex;
-    margin: auto;
+    list-style: none;
   }
 
   .aligncenter {
@@ -52,9 +30,9 @@
 
 <section>
   <div class="container">
-    <h2>Steden met grote uitstoot verschillen</h2>
+    <h2 class="ta-center">Steden met grote verschillen in uitstoot</h2>
 
-    <p>
+    <p class="padding-24">
       De volgende steden hebben allemaal te maken gehad met de hierboven
       aangegeven maatregelen, en hebben een grote reductie in NO<sub>2</sub>
       gehad. Om deze steden te kunnen vergelijken hebben we eerst wat data per stad
@@ -68,7 +46,7 @@
       <LiverpoolCard />
     </ul>
 
-    <p>
+    <p class="padding-42">
       De 4 steden bevinden zich allemaal in een ander europees land. Hierdoor is
       het makkelijker om de invloed van maatregelen te onderzoeken, en het maakt
       de vergelijkingen begrijpelijker. Ook zijn dit allemaal westerse steden
@@ -76,7 +54,7 @@
       uitstoot.
     </p>
 
-    <p class="margintop">
+    <p class="padding-24">
       In de onderstaande afbeelding is een visuele weergaven te zien van de
       oppervlakte van de steden. Hierbij valt het op dat Lyon twee keer het
       aantal inwoners van Liverpool heeft, maar tegelijkertijd ook de helft van
@@ -86,7 +64,7 @@
       grote industrie die Milaan heeft.
     </p>
 
-    <div class="card margintop">
+    <div>
       <ul class="aligncenter">
         <li>
           <MadridSurface />
@@ -103,7 +81,7 @@
       </ul>
     </div>
 
-    <p class="margintop">
+    <p class="padding-44">
       In de barchart hieronder staan de gemeten NO<sub>2</sub> waardes over de
       COVID-19 periode. De balken zijn in de kleur van correspoderende stad en
       laten de hoogste, laagste en gemiddelde NO<sub>2</sub> waarde zien. Onderin

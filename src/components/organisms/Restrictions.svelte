@@ -17,10 +17,6 @@
       content: url('/images/shape-rounded.svg');
       margin: -5px 0;
       display: block;
-
-      // svg {
-      //   fill: hsla(186, 33%, 94%, 1)
-      // }
     }
 
     &::after {
@@ -38,19 +34,14 @@
     justify-content: space-between;
     list-style: none;
   }
-
-  p {
-    margin-bottom: 2rem;
-  }
-
 </style>
 
 <section>
   <div>
     <div class="container">
-      <h2>Welke maatregelen hebben invloed op NO<sub>2</sub></h2>
+      <h2 class="ta-center">Welke maatregelen hebben invloed op NO<sub>2</sub></h2>
 
-      <p>
+      <p class="padding-24">
         De onderstaande maatregelen zullen een grote invloed kunnen hebben op NO<sub
           >2</sub
         >

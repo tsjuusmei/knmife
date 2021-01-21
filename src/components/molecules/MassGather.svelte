@@ -1,32 +1,33 @@
 <style>
   img {
-    width: 160px;
+    width: 140px;
     margin: auto;
   }
 
   div {
-    background-color: white;
-    width: 225px;
-    height: 225px;
-    border-radius: 20px;
-    align-content: center;
     display: flex;
     flex-direction: column;
-  }
-
-  h3 {
-    margin: 1rem 0;
+    align-content: center;
+    width: 225px;
+    height: 225px;
+    border: 2px solid var(--darkblue);
+    border-radius: 20px;
   }
 
   p {
     width: 230px;
     font-size: 16px;
   }
+
+  h3 {
+    padding: 1rem 0;
+  }
+
 </style>
 
-<div><img src="./images/massgather.svg" alt="" /></div>
+<div><img src="./images/shape-massgather.svg" alt="" /></div>
 
-<h3>MassGather</h3>
+<h3 class="ta-center">MassGather</h3>
 
 <p>
   Geen grote groepen bij elkaar voorkomt spreiding en zorgt voor minder

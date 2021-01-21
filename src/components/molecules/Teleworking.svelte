@@ -1,32 +1,33 @@
 <style>
   img {
-    width: 160px;
+    width: 120px;
     margin: auto;
   }
 
   div {
-    background-color: white;
-    width: 225px;
-    height: 225px;
-    border-radius: 20px;
-    align-content: center;
     display: flex;
     flex-direction: column;
-  }
-
-  h3 {
-    margin: 1rem 0;
+    align-content: center;
+    width: 225px;
+    height: 225px;
+    border: 2px solid var(--darkblue);
+    border-radius: 20px;
   }
 
   p {
     width: 230px;
     font-size: 16px;
   }
+
+  h3 {
+    padding: 1rem 0;
+  }
+
 </style>
 
-<div><img src="./images/teleworking.svg" alt="" /></div>
+<div><img src="./images/shape-teleworking.svg" alt="" /></div>
 
-<h3>Teleworking</h3>
+<h3 class="ta-center">Teleworking</h3>
 
 <p>
   Thuiswerken. Mensen werken thuis om de drukte in grote steden te verminderen, en

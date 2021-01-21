@@ -12,12 +12,13 @@
   }
 
   h4 {
-    color: white;
-    font-size: 30px;
-    text-transform: uppercase;
+    padding-top: 2rem;
+    color: #fff;
+    font-size: var(--heading-3);
   }
 
   h5 {
+    margin-top: 0;
     font-size: 20px;
     text-align: left;
     line-height: 1em;
@@ -38,11 +39,11 @@
     background-color: var(--milan);
     border-radius: 20px;
     text-align: center;
-    /* box-shadow: var(--cardshadow) */
   }
 
   img {
     height: 15px;
+    padding-right: 4px;
   }
 
   p {
@@ -53,7 +54,6 @@
     align-items: center;
     justify-content: left;
     margin-left: 20px;
-    margin-top: 15px;
   }
 </style>
 
@@ -61,7 +61,7 @@
   <h4>Milaan</h4>
   <div>
     <h5>3.136.000 <br /> <span>Aantal inwoners</span></h5>
-    <p><img src="./images/person.milan.svg" alt="" /> =100.000</p>
+    <p><img src="./images/person.milan.svg" alt="" /> = 100.000</p>
     <PersonRowYelloworange />
   </div>
 </li>

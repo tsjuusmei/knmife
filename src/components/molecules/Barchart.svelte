@@ -1,6 +1,6 @@
 <div class="card">
-  <h3>Gemeten NO<sub>2</sub> waardes tijdens COVID-19</h3>
-  <img src="../images/no2graph.svg" alt="barchart" />
+  <h3 class="ta-center">Gemeten NO<sub>2</sub> waardes tijdens COVID-19</h3>
+  <img class="padding-20" src="../images/no2graph.svg" alt="barchart" />
   <div class="legend">
     <p>Madrid</p>
     <p>Milaan</p>
@@ -17,16 +17,14 @@
 
   div.card {
     border-radius: 20px;
-    /* box-shadow: var(--cardshadow); */
     width: auto;
     height: auto;
-    padding: 2em 0;
-    margin-top: 4em;
   }
 
   .card > img {
     display: flex;
-    margin: 30px 5vw;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .legend {
