@@ -50,13 +50,7 @@
     <h2 class="ta-center padding-02">Wat is NO<sub>2</sub>?</h2>
 
     <p class="padding-20">
-      Stikstofdioxide (NO<sub
-        >2</sub
-      >) is een gas dat in Nederland voor een groot gedeelte door het
-      autoverkeer wordt geproduceerd. Het is daarom een belangrijke indicator
-      voor de luchtverontreiniging door verkeer. Langs grote wegen komen hoge
-      concentraties voor die over een afstand van enkele kilometers afnemen tot
-      lage concentraties. Bovendien draagt Stikstofdioxide ook bij aan smog.
+      Luchtvervuiling is de grote boosdoener als het aankomt op de opwarming van de aarde. Luchtverontreiniging omvat veel verschillende stoffen, stikstofdioxide (NO<sub>2</sub>) is er een van. NO<sub>2</sub> is een gas wat vrijkomt bij allerlei verbrandingsprocessen. Het gas ontstaat bij zeer hoge temperaturen waarbij een reactie tussen stikstof (N<sub>2</sub>) en zuurstof (O<sub>2</sub>) plaatsvindt.
     </p>
   </div>
 </section>

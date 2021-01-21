@@ -1,4 +1,4 @@
-<section>
+<section class="padding-126">
   <div class="container">
     <h2 class="ta-center">Conclusie</h2>
     <p>

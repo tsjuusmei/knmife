@@ -64,13 +64,12 @@
   section {
     position: relative;
     z-index: 99;
-    margin-top: -6%;
     padding: 0;
 
     &::before,
     &::after {
-      content: url('../../../images/shape-rounded.svg');
-      margin: -4px 0;
+      content: url('/images/shape-rounded.svg');
+      margin: -5px 0;
       display: block;
     }
 
@@ -78,11 +77,16 @@
       transform: rotate(180deg);
     }
 
-    & > div.area {
+    & > div {
       padding: 4rem 0;
       background: hsla(186, 33%, 94%, 1);
-      display:flex;
-      justify-content: space-evenly;
+
+      &.area {
+        padding: 4rem 0;
+        background: hsla(186, 33%, 94%, 1);
+        display:flex;
+        justify-content: space-evenly;
+      }
     }
   }
 

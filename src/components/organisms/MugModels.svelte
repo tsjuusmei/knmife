@@ -1,10 +1,10 @@
 <style>
-  iframe {
-    height: 60vh;
+  section {
+    height: 30rem;
   }
 </style>
 
-<section>
+<section class="padding-0">
   <iframe
     title="Mok"
     src="https://my.spline.design/mok-9d4dd56499032891bf26af505c48d50b/"

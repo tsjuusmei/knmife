@@ -1,7 +1,4 @@
 <style type="text/scss">
-  section {
-    margin-bottom: 10%;
-  }
 
   .list {
     list-style-type: none;
