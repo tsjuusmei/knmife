@@ -18,9 +18,9 @@
       margin: -5px 0;
       display: block;
 
-      svg {
-        fill: hsla(186, 33%, 94%, 1)
-      }
+      // svg {
+      //   fill: hsla(186, 33%, 94%, 1)
+      // }
     }
 
     &::after {
